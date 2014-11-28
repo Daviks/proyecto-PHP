@@ -1,0 +1,171 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+    <!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>CRAZY  FOOD</title>
+	<meta name="description" content="Free Html5 Templates and Free Responsive Themes Designed by Kimmy | zerotheme.com">
+	<meta name="author" content="www.zerotheme.com">
+	
+    <!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="css/zerogrid.css">
+	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="css/responsiveslides.css" />
+	
+	<!--[if lt IE 8]>
+       <div style=' clear: both; text-align:center; position: relative;'>
+         <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+           <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+        </a>
+      </div>
+    <![endif]-->
+    <!--[if lt IE 9]>
+		<script src="js/html5.js"></script>
+		<script src="js/css3-mediaqueries.js"></script>
+	<![endif]-->
+	
+	<link href='./images/favicon.ico' rel='icon' type='image/x-icon'/>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/responsiveslides.js"></script>
+	<script>
+		$(function () {
+		  $("#slider").responsiveSlides({
+			auto: true,
+			pager: false,
+			nav: true,
+			speed: 500,
+			maxwidth: 962,
+			namespace: "centered-btns"
+		  });
+		});
+	</script>
+	
+</head>
+<body>
+<!--------------Header--------------->
+<!--
+<header>
+	<div class="wrap-header zerogrid">
+		<div id="logo"><a href="#"><img src="./images/logo.png"/></a></div>
+		
+		<div id="search">
+			<div class="button-search"></div>
+			<input type="text" value="Search..." onfocus="if (this.value == &#39;Search...&#39;) {this.value = &#39;&#39;;}" onblur="if (this.value == &#39;&#39;) {this.value = &#39;Search...&#39;;}">
+		</div>
+	</div>
+</header>
+
+
+<nav>
+	<div class="wrap-nav zerogrid">
+		<div class="menu">
+			<ul>
+				<li class="first"><a href="index.html">Home</a></li>
+				<li><a href="blog.html">Blog</a></li>
+				<li><a href="services.html">Services</a></li>
+				<li><a href="single.html">About</a></li>
+				<li class="last current"><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+		
+		
+		<div class="minimenu"><div>MENU</div>
+			<select onchange="location=this.value">
+				<option></option>
+				<option value="index.html">Home</option>
+				<option value="blog.html">Blog</option>
+				<option value="services.html">Services</option>
+				<option value="single.html">About</option>
+				<option value="contact.html">Contact</option>
+			</select>
+		</div>		
+		<div class="share">
+			<ul>
+				<li><a href="#"><img src="images/rss-icon.png" title="RSS"/></a></li>
+				<li><a href="#"><img src="images/twitter-icon.png" title="Twitter"/></a></li>
+				<li><a href="#"><img src="images/facebook-icon.png" title="Facebook"/></a></li>
+				<li><a href="#"><img src="images/google-plus-icon.png" title="Google Plus"/></a></li>
+				<li><a href="#"><img src="images/pinterest-icon.png" title="Pinterest"/></a></li>
+				<li><a href="#"><img src="images/linkedin-icon.png" title="Linkedin"/></a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+-->
+<!--------------Content--------------->
+<section id="content">
+	<div class="wrap-content zerogrid">
+		<div class="row block">
+			<div id="main-content" class="col-2-3">
+				<div class="wrap-col">
+					<article>
+						 <div id="contact-form"> 
+      <!-- <h1>Registrate con nosotros!</h1>
+       <h4>Tus datos nos ayudaran como guia para brindarte la mejor opcion de acuerdo a tu necesidad</h2> 
+       <p id="failure">Oops... Algo anduvo mal.</p> 
+       <p id="success">Gracias, tu registro ha sido creado correctamente.</p> -->
+
+       <form method="post" action="emailForm.php"> 
+          <label for="name">Nombres: <span class="required">*</span></label> 
+          <input type="text" id="name" name="name" value="" placeholder="Your name" required="required" autofocus="autofocus" /> 
+          
+           <label for="name">Apellidos: <span class="required">*</span></label> 
+          <input type="text" id="apellido" name="apellido" value="" placeholder="Sus apellidos" required="required" autofocus="autofocus" /> 
+             
+          <label for="email">Email: <span class="required">*</span></label> 
+          <input type="email" id="email" name="email" value="" placeholder="your@email.com" required="required" /> 
+
+<label for="telefono">Telefono: <span class="required">*</span></label> 
+          <input type="telefono" id="telefono" name="telefono" value="" placeholder="9999999999" required="required" /> 
+
+<label for="direccion">Direccion: <span class="required">*</span></label> 
+          <input type="direccion" id="direccion" name="direccion" value="" placeholder="direccion" required="required" /> 
+
+
+<!--
+ <label for="otro">otro: <span class="required"> </span></label> 
+          <input type="text" id="otro" name="otro" value="" autofocus="autofocus" /> 
+
+<label for="sucursal">Sucursal: </label> 
+      <select id="sucursal" name="sucursal">   
+         <option value="hello">Guayaquil</option>
+         <option value="quote">Duran</option> 
+         <option value="quote">Playas</option>
+         <option value="quote">Daule</option> 
+      </select> 
+
+ 
+<label for="numeropersonas">Numero de personas: <span class="required">*</span></label> 
+          <input type="numeropersonas" id="numeropersonas" name="numeropersonas" value="" placeholder="999" required="required" /> 
+
+             
+             
+          <label for="message">Descripcion de afeccion: <span class="required">*</span></label> 
+          <textarea id="message" name="message" placeholder="Write your message here, please." required="required"></textarea> 
+               
+<input type="submit" value="Registrar" id="submit" />
+       </form> 
+    </div>
+
+
+</section>
+<!--------------Footer--------------->
+<footer>
+	<div class="wrap-footer">
+		<div class="copyright">
+		<p>Copyright © 2014 - <a href="http://www.zerotheme.com/432/free-responsive-html5-css3-website-templates.html" target="_blank">CrazyFood-DerechosReservados</a> by <a href="http://www.zerotheme.com" target="_blank">crazyfood.com</a></p>
+		</div>
+	</div>
+</footer>
+</body></html>
