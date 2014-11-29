@@ -1,0 +1,51 @@
+body {background-image: url(../imagenes/fondo.png);
+	   background-size:100%;
+	   font-family: "Comic Sans MS", cursive;}
+	   
+.imagen{width:100%;
+	    height:281px;}
+
+.sobre {position:absolute;
+ 		top:9px;
+ 		left:9px;
+ 		border:none;
+ 		width:25%;
+ 		height:281px;}
+		
+.sobrearriba{
+	position: absolute;
+	top: 69px;
+	left: 681px;
+	border: none;
+	width: 385px;
+	height: 28px;
+}
+
+.centrar{
+	text-align:center;
+	}
+.izquierda{
+	text-align:left;
+	}
+		
+.formato1{
+		border-color:#390;
+		border-style:solid;
+		background:#6C3;	
+		float:left;
+		}
+.formato2{
+		border-color:#390;
+		border-style:solid;
+		background:#6C3;
+		float:right;
+		}
+	
+.formato{
+		border-color:#390;
+		border-style:solid;
+		background:#6C3;
+		float:none;
+		}
+		
+
