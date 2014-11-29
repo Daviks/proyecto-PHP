@@ -14,11 +14,12 @@ body {background-image: url(../imagenes/fondo.png);
 		
 .sobrearriba{
 	position: absolute;
-	top: 69px;
-	left: 681px;
+	top: 16px;
+	left: 682px;
 	border: none;
 	width: 385px;
 	height: 28px;
+	border-radius: 15px 15px 15px 15px;
 }
 
 .centrar{
@@ -27,7 +28,10 @@ body {background-image: url(../imagenes/fondo.png);
 .izquierda{
 	text-align:left;
 	}
-		
+	
+.direcccion{
+	float:left;
+	}		
 .formato1{
 		border-color:#390;
 		border-style:solid;
@@ -48,4 +52,28 @@ body {background-image: url(../imagenes/fondo.png);
 		float:none;
 		}
 		
-
+.formatoboton{
+		border:#060;
+		border-bottom-width:medium;
+		background:#090;
+		color:#9F9;
+		font-size: 25px;
+		width:130px;
+		height:60px;
+		border-radius: 15px 15px 15px 15px;	
+	}
+	
+.puntos{
+		color:#090;
+		font-size:32px;
+		text-align:center;
+	}		
+.formacontacto{
+		color:#9F9;
+		font-size: 18px;
+		border:#060;
+		border-width::medium;
+	    background:#090;
+		border-radius: 15px 15px 15px 15px;	
+		width:75%;
+	}
