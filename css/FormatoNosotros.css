@@ -62,3 +62,9 @@ font-size:24px;
 	font-weight: normal;
 	src: local("?"), url("../estilos/kratos.woff") format("woff"), url("../estilos/kratos.ttf") format("truetype");
 }
+@font-face {
+	font-family: "Titulo";
+	font-style: normal;
+	font-weight: normal;
+	src: local("?"), url("../estilos/infected.woff") format("woff"), url("../estilos/infected.ttf") format("truetype");
+			}
