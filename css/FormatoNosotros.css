@@ -15,6 +15,8 @@ body {
 }
 .estilo2{font-family: Titulo;font-size: 40px;color:#F60; text-align:center
 }
+.estilo3{font-family: TexStyle;font-size: 36px;color:#960; text-align:center;}
+.estilo4{font-family: Titulo;font-size: 50px;color:#0CF; text-align:center}
 .imares{
 width:150px;
 height:150px;
@@ -50,9 +52,13 @@ background-color:#2A701D;
 
 color:yellow;
 list-style-type: none;
-
-
 }
 #cate{
 font-size:24px;
+}
+@font-face {
+	font-family: "TexStyle";
+	font-style: normal;
+	font-weight: normal;
+	src: local("?"), url("../estilos/kratos.woff") format("woff"), url("../estilos/kratos.ttf") format("truetype");
 }
