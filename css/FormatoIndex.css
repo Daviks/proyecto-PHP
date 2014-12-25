@@ -6,56 +6,30 @@ body {
 	font-family: "Comic Sans MS", cursive;
 	
 	}
-.imageness{
-	
-	width:100%;
-	height:281px;
-}
+
 .estilo1{font-family: Titulo;font-size: 80px;color:#F90; text-align:center
 }
 .estilo2{font-family: Titulo;font-size: 32px;color:#000; text-align:center
 }
-.estilo3{font-family: Contenido;font-size: 55px;color:#F90; text-align:center
+.estilo3{font-family: Contenido;font-size: 45px;color:#F90; text-align:center
 }
 
-.imares{
-width:150px;
-height:150px;
 
+
+header{
+    background: url(../imagenes/background_header.jpg);    
+    background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 15px;
+	
 }
-
-#banner_left{
-margin-left:50px;
-border: solid 1px;
-border-radius: 15px 15px 15px 15px;
-width:300px;
-height:300px;
-border-color:#2A701D;
-background-color:#2A701D;
+.logo {
+    width: 100px;
 }
-
-#banner_right{
-position:absolute;
-left: 400px;
-top: 429px;
-margin-left:50px;
-padding-left:30px;
-padding-top: 30px;
-border: solid 1px;
-border-radius: 15px 15px 15px 15px;
-width:700px;
-height:271px;
-border-color:#2A701D;
-background-color:#2A701D;
-}
-
-#menu_categorias{
-
-color:yellow;
-list-style-type: none;
-
-
-}
-#cate{
-font-size:24px;
+.btn {
+    color: #FFF;
+    background: #6C6;
+    padding: 5px 15px 5px 15px;
+    margin: 3px 3px 3px 3px;
+    float: right;
 }
