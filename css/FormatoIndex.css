@@ -13,7 +13,8 @@ body {
 }
 .estilo3{font-family: Contenido;font-size: 45px;color:#F90; text-align:center
 }
-
+.estilo4{font-family: footer;font-size: 20px;color:#FFFFFF; text-align:left
+}
 
 
 header{
@@ -32,4 +33,9 @@ header{
     padding: 5px 15px 5px 15px;
     margin: 3px 3px 3px 3px;
     float: right;
+}
+footer{    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #1f854e;
 }
