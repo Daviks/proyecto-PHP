@@ -34,12 +34,15 @@ header{
     margin: 3px 3px 3px 3px;
     float: right;
 }
-
-.formacontacto{
-		color:#FFF;
-		font-size: 18px;
-		border:#060;
-		border-width::medium;
-	    background:#060;
-		border-radius: 15px 15px 15px 15px;	
+footer{    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #1f854e;
+    color: #393;
+	border-radius: 50px 50px 50px 50px;	
+} 
+.puntos{
+		color:#090;
+		font-size:32px;
+		text-align:center;
 	}
