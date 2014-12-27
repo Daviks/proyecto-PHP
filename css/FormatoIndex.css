@@ -2,7 +2,6 @@
 body {
 	background-image: url(../imagenes/fondo.png);
 	background-size:100%;
-	
 	font-family: "Comic Sans MS", cursive;
 	
 	}
@@ -37,7 +36,7 @@ header{
 footer{    
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #1f854e;
+    background-color: #060;
     color: #393;
 	border-radius: 50px 50px 50px 50px;	
 } 
