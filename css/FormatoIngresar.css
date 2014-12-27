@@ -91,7 +91,6 @@ body {background-image: url(../imagenes/fondo.png);
 		border-width::medium;
 	    background:#060;
 		border-radius: 15px 15px 15px 15px;	
-		width:75%;
 	}
 .font-face {
        font-family: "Titulo";
@@ -105,3 +104,10 @@ body {background-image: url(../imagenes/fondo.png);
        font-weight: normal;
        src: local("?"), url("estilos/Cartoon.woff") format("woff"), url("estilos/Cartoon.ttf") format("truetype");
                 }
+.fieldset{
+	height:100px;
+	width:100px;
+	}
+.legenda{
+	text-align:left;
+	}
