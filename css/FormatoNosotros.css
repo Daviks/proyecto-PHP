@@ -87,3 +87,11 @@ font-size:24px;
 	font-weight: normal;
 	src: local("?"), url("../estilos/infected.woff") format("woff"), url("../estilos/infected.ttf") format("truetype");
 			}
+.formacontacto{
+		color:#FFF;
+		font-size: 18px;
+		border:#060;
+		border-width::medium;
+	    background:#060;
+		border-radius: 15px 15px 15px 15px;	
+	}
