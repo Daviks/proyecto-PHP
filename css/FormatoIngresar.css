@@ -18,25 +18,6 @@ body {background-image: url(../imagenes/fondo.png);
     margin: 3px 3px 3px 3px;
     float: right;
 }	   
-.imagen{width:100%;
-	    height:281px;}
-
-.sobre {position:absolute;
- 		top:9px;
- 		left:9px;
- 		border:none;
- 		width:25%;
- 		height:281px;}
-		
-.sobrearriba{
-	position: absolute;
-	top: 16px;
-	left: 682px;
-	border: none;
-	width: 385px;
-	height: 28px;
-	border-radius: 15px 15px 15px 15px;
-}
 
 .centrar{
 	text-align:center;
@@ -49,25 +30,9 @@ body {background-image: url(../imagenes/fondo.png);
 	float:left;
 	}		
 .formato1{
-		border-color:#390;
-		border-style:solid;
-		background:#6C3;	
-		float:left;
-		}
-.formato2{
-		border-color:#390;
-		border-style:solid;
-		background:#6C3;
-		float:right;
-		}
-	
-.formato{
-		border-color:#390;
-		border-style:solid;
-		background:#6C3;
-		float:none;
-		}
-		
+		color:#090;
+		font-size:20px;
+		}		
 .formatoboton{
 		border:#060;
 		border-bottom-width:medium;
@@ -105,9 +70,14 @@ body {background-image: url(../imagenes/fondo.png);
        src: local("?"), url("estilos/Cartoon.woff") format("woff"), url("estilos/Cartoon.ttf") format("truetype");
                 }
 .fieldset{
-	height:100px;
-	width:100px;
+	width:25%;
 	}
 .legenda{
+	font-size:30px;
+	color:#633;
 	text-align:left;
+	}
+.float{
+	width:25%;
+	float:left;
 	}
