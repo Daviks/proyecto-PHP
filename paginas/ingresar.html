@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-            <link href="../css/FormatoIngresar.css" rel="stylesheet" media="screen" type="text/css">
+            <link href="../css/FormatoIndex.css" rel="stylesheet" media="screen" type="text/css">
             <link href="../bootstrap/css/bootstrap.css" rel="stylesheet">
         <title>Crazy Food</title>
         <style type="text/css">
@@ -27,7 +27,7 @@
         </style>
     </head>
     
-<body>
+    <body>
     	<header>
            <div class="container">
             <div class="header">
@@ -35,18 +35,20 @@
                     <a href="../index.html"><img src="../imagenes/logo.png" alt="logo" class="logo"></a>
                 </div>
               	<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
-                    <button type="button" class="btn " >Ayuda en Línea</button>
-                    <button type="button" class="btn ">Ingresar</button>
-                    <button type="button" class="btn ">Registrate</button>
+					<a href="../paginas/ayuda.html" title="Obten ayuda en linea"> <button type="button" class="btn " >Ayuda en Línea</button></a>
+                    <a href="#" title="Ingresa con tu nombre de usuario"> <button type="button" class="btn " >Ingresar</button></a>
+					<a href="../paginas/registrar.html" title="Crea un nuevo usuario en el sitio"> <button type="button" class="btn " >Registrate</button></a>
                 </div>
             </div>
            </div>
    		</header>
-    	<p>&nbsp;</p>
-    	<p>&nbsp;</p>
-    	<article>
-      		<div class="container">
-              <div class="centrar"> 	
+        
+    	<hr/>
+		
+<!-- CONENIDO PRINCIPAL -->		
+        <div id="contenido">
+		
+			<div class="centrarIngresar"> 	
                     <form name="form1" method="post" action="">
                         <fieldset>
                         <legend class="legenda">Ingresar </legend>
@@ -63,26 +65,28 @@
                     <form>
                    		 <input class="formatoboton" name="Registrar" type="button" value="Ingresar">
                     </form>  
-              </div>
-          	</div>
-		</article>
+            </div>
+	  </div>
+	  
+	  <!-- FIN DEL CONENIDO PRINCIPAL -->
 
         <div class="puntos">
-    		<p>&nbsp;</p>
-    		<p>&nbsp;</p>
-    		<p>&nbsp;</p>
-    		<p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - </p>
-        </div>
+    		- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+		</div>
       
-		<footer>
+       <footer>
            <div class="container">
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                    <a href="paginas/nosotros.html" class="estilo4"> Conéctate con Nosotros </a>
-                    <p class="estilo4">Quíenes Somos</p>
-                    <a href="paginas/beneficios.html" class="estilo4">Benefícios</a>
-                    <p class="estilo4">Servicios</p>
+                    <a href="../paginas/nosotros.html" class="estilo4"> Conéctate con Nosotros </a> <br/>
+                    <a href="../paginas/quienessomos.html" class="estilo4">Quíenes Somos</a><br/>
+                    <a href="../paginas/beneficios.html" class="estilo4">Benefícios</a><br/>
+                    <a href="../paginas/servicios.html" class="estilo4">Servicios</a><br/>
                 </div>
+				<div id="socialMedia">
+					<a href="http://www.twitter.com"> <img src="../imagenes/tw1.png" alt="twitter" class="icoSocial"> </a>
+					<a href="http://www.facebook.com"> <img src="../imagenes/fb1.png" alt="facebook" class="icoSocial"> </a>
+				</div>
             </div>
     	</footer>
-</body>
+    </body>
 </html>

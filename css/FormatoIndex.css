@@ -211,3 +211,51 @@ width:50px;
 height:auto;
 margin-right:1%;
 }
+
+/*ESTILO PARA INGRESAR.HTML */
+.centrarIngresar{
+	text-align:center;
+	}
+/*FIN DE ESTILO PARA INGRESAR.HTML*/
+
+
+/*ESTILO PARA RESTAURANTES.HTML */
+#banner_left{
+margin-left:50px;
+border: solid 1px;
+border-radius: 15px 15px 15px 15px;
+width:300px;
+height:300px;
+border-color:#2A701D;
+background-color:#2A701D;
+}
+
+#banner_right{
+position:absolute;
+left: 400px;
+top: 300px;
+margin-left:50px;
+padding-left:30px;
+padding-top: 30px;
+border: solid 1px;
+border-radius: 15px 15px 15px 15px;
+width:700px;
+height:271px;
+border-color:#2A701D;
+background-color:#2A701D;
+}
+
+#menu_categorias{
+
+color:yellow;
+list-style-type: none;
+}
+#cate{
+font-size:24px;
+}
+.imares{
+width:150px;
+height:150px;
+
+}
+/* FIN ESTILO PARA RESTAURANTES.HTML */

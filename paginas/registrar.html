@@ -1,79 +1,98 @@
 <!doctype html>
 <html>
-<head>
-
-<meta charset="utf-8">
-<link href="../css/FormatoNosotros.css" rel="stylesheet" media="screen" type="text/css">
-
-<title>Crazy Food</title>
-
-<style type="text/css">
-
-@font-face {
-	font-family: "Titulo";
-	font-style: normal;
-	font-weight: normal;
-	src: local("?"), url("../estilos/assassin.woff") format("woff"), url("../estilos/assassin.ttf") format("truetype");
-}
-
-</style>
-
-</head>
-
-<body>
-	<div>
-		<img src="../imagenes/ima1.jpg" class="imageness"  alt="wol" />
-	</div>
-	
-	<hr/>
-	
-	<div id="contenido">
-	
-		<form method="post" action="emailForm.php"> 
-          <label for="name">Nombres: <span class="required">*</span></label> 
-          <input type="text" id="name" name="name" value="" placeholder="Your name" required="required" autofocus="autofocus" /> 
-           <br>
-           
-           <label for="name">Apellidos: <span class="required">*</span></label> 
-          <input type="text" id="apellido" name="apellido" value="" placeholder="Sus apellidos" required="required" autofocus="autofocus" /> 
-              <br>
-             
-          <label for="email">Email: <span class="required">*</span></label> 
-          <input type="email" id="email" name="email" value="" placeholder="your@email.com" required="required" /> 
-           <br>
-
-<label for="telefono">Telefono: <span class="required">*</span></label> 
-          <input type="telefono" id="telefono" name="telefono" value="" placeholder="9999999999" required="required" /> 
-           <br>
-
-<label for="direccion">Direccion: <span class="required">*</span></label> 
-          <input type="direccion" id="direccion" name="direccion" value="" placeholder="direccion" required="required" />  
-           <br>
-           <br>
-           <br>
-           <br><br><br><br><br><br><br><br><br><br><br><br>
+    <head>
+        <meta charset="utf-8">
+            <link href="../css/FormatoIndex.css" rel="stylesheet" media="screen" type="text/css">
+            <link href="../bootstrap/css/bootstrap.css" rel="stylesheet">
+        <title>Crazy Food</title>
+        <style type="text/css">
+                @font-face {
+                    font-family: "Titulo";
+                    font-style: normal;
+                    font-weight: normal;
+                    src: local("?"), url("../estilos/assassin.woff") format("woff"), url("../estilos/assassin.ttf") format("truetype");
+                }
+                @font-face {
+                    font-family: "Contenido";
+                    font-style: normal;
+                    font-weight: normal;
+                    src: local("?"), url("../estilos/Cartoon.woff") format("woff"), url("../estilos/Cartoon.ttf") format("truetype");
+                }
+				 @font-face {
+                    font-family: "footer";
+                    font-style: normal;
+                    font-weight: normal;
+                    src: local("?"), url("../estilos/BLKCHCRY.woff") format("woff"), url("../estilos/BLKCHCRY.ttf") format("truetype");
+                }
+        </style>
+    </head>
+    
+    <body>
+    	<header>
+           <div class="container">
+            <div class="header">
+                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                    <a href="../index.html"><img src="../imagenes/logo.png" alt="logo" class="logo"></a>
+                </div>
+              	<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					<a href="../paginas/ayuda.html" title="Obten ayuda en linea"> <button type="button" class="btn " >Ayuda en Línea</button></a>
+                    <a href="../paginas/ingresar.html" title="Ingresa con tu nombre de usuario"> <button type="button" class="btn " >Ingresar</button></a>
+					<a href="#" title="Crea un nuevo usuario en el sitio"> <button type="button" class="btn " >Registrate</button></a>
+                </div>
+            </div>
+           </div>
+   		</header>
+        
+    	<hr/>
 		
-		<div id="banner_right">
-			<img src="../imagenes/dominoes.png" class="imares"  alt="res1" />
-			<img src="../imagenes/kfc.png" class="imares"  alt="res1" />
-			<img src="../imagenes/mcdonalds.png" class="imares"  alt="res1" />
+<!-- CONENIDO PRINCIPAL -->		
+        <div id="contenido">
+		
+			<div id = "formularioRegistro">
+				<form method="post" action="emailForm.php"> 
+					  <label for="name">Nombres: <span class="required">*</span></label> 
+					  <input type="text" id="name" name="name" value="" placeholder="Su nombre" required="required" autofocus="autofocus" /> 
+					  <br>
+					   
+					  <label for="name">Apellidos: <span class="required">*</span></label> 
+					  <input type="text" id="apellido" name="apellido" value="" placeholder="Sus apellidos" required="required" autofocus="autofocus" /> 
+					  <br>
+						 
+					  <label for="email">Email: <span class="required">*</span></label> 
+					  <input type="email" id="email" name="email" value="" placeholder="ejemplo: your@email.com" required="required" /> 
+					  <br>
+
+					  <label for="telefono">Telefono: <span class="required">*</span></label> 
+					  <input type="telefono" id="telefono" name="telefono" value="" placeholder="9999999999" required="required" /> 
+					  <br>
+
+					 <label for="direccion">Direccion: <span class="required">*</span></label> 
+					 <input type="direccion" id="direccion" name="direccion" value="" placeholder="Dirección" required="required" />  
+					 <br>
+					 <br>
+					 
+			</div>
+	  </div>
+	  
+	  <!-- FIN DEL CONENIDO PRINCIPAL -->
+
+        <div class="puntos">
+    		- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 		</div>
-	
-	</div>
-
-
-</body>
-
-
-
-
-
-<footer>
-	<div class="wrap-footer">
-		<div class="copyright">
-		<p>Copyright © 2014 - <a href="http://www.zerotheme.com/432/free-responsive-html5-css3-website-templates.html" target="_blank">CrazyFood-DerechosReservados</a> by <a href="http://www.zerotheme.com" target="_blank">crazyfood.com</a></p>
-		</div>
-	</div>
-</footer>
+      
+       <footer>
+           <div class="container">
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                    <a href="../paginas/nosotros.html" class="estilo4"> Conéctate con Nosotros </a> <br/>
+                    <a href="../paginas/quienessomos.html" class="estilo4">Quíenes Somos</a><br/>
+                    <a href="../paginas/beneficios.html" class="estilo4">Benefícios</a><br/>
+                    <a href="../paginas/servicios.html" class="estilo4">Servicios</a><br/>
+                </div>
+				<div id="socialMedia">
+					<a href="http://www.twitter.com"> <img src="../imagenes/tw1.png" alt="twitter" class="icoSocial"> </a>
+					<a href="http://www.facebook.com"> <img src="../imagenes/fb1.png" alt="facebook" class="icoSocial"> </a>
+				</div>
+            </div>
+    	</footer>
+    </body>
 </html>
-
