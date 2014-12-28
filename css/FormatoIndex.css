@@ -199,3 +199,15 @@ footer{
 }
 
 /* FIN ESTILO PARA DESLIZANTE */
+/* ESTILO PARA ICONOS SOCIAL MEDIA */
+
+#socialMedia{
+margin-left:80%;
+
+}
+
+.icoSocial{
+width:50px;
+height:auto;
+margin-right:1%;
+}
