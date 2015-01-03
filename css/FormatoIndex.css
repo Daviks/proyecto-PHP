@@ -1,4 +1,24 @@
+/*estilos de las letras*/
 
+ 			 @font-face {
+                    font-family: "Titulo";
+                    font-style: normal;
+                    font-weight: normal;
+                    src: local("?"), url("../estilos/assassin.woff") format("woff"), url("../estilos/assassin.ttf") format("truetype");
+                }
+                @font-face {
+                    font-family: "Contenido";
+                    font-style: normal;
+                    font-weight: normal;
+                    src: local("?"), url("../estilos/Simply.woff") format("woff"), url("../estilos/Simply.ttf") format("truetype");
+                }
+				 @font-face {
+                    font-family: "footer";
+                    font-style: normal;
+                    font-weight: normal;
+                    src: local("?"), url("../estilos/BLKCHCRY.woff") format("woff"), url("../estilos/BLKCHCRY.ttf") format("truetype");
+                }
+/*fin de estilos de letras*/				
 body {
 	background-image: url(../imagenes/fondo.png);
 	background-size:100%;
@@ -42,7 +62,7 @@ footer{
 } 
 .puntos{
 		color:#090;
-		font-size:32px;
+		font-size:35px;
 		text-align:center;
 	}
 
