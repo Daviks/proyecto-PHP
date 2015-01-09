@@ -37,7 +37,6 @@ body {
 .estilo5{font-family: Contenido;font-size: 32px;color:#060; text-align:center
 }
 
-
 header{
     background: url(../imagenes/background_header.jpg);    
     background-size: cover;
@@ -567,7 +566,7 @@ footer{
 /* ESTILO PARA ICONOS SOCIAL MEDIA */
 
 #socialMedia{
-padding-top: 30px;	
+padding-top: 15px;	
 margin-left:80%;
 text-align:right;
 
