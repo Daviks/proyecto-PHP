@@ -4,6 +4,8 @@
         <meta charset="utf-8">
             <link href="css/FormatoIndex.css" rel="stylesheet" media="screen" type="text/css">
             <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+			<script src="js/modernizr.custom.63321.js"></script> 
+            
         <title>Crazy Food</title>
    
     </head>
@@ -25,23 +27,53 @@
    		</header>
         
     	 <div class="puntos">
-    		<p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - </p>
+    		<p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>
         </div>
         
         <div id="contenido">
-				<article>
+        
+        		<article>
 					<div class="container">
 					<div class="estilo3"> ¡ Consigue tu comida Favorita más Rápido y Sencillo !    </div>
                     <br>
-                    <nav class="centrado">
-                      <a href="paginas/ciudad.html" class="estilo5">Ciudad </a>
-                      <a class="mascara">............................................</a>
-                      <a href="paginas/restaurantes.html" class="estilo5">Restaurante </a>
-                      <a class="mascara">............................................</a>
-                      <a href="paginas/comida.html" class="estilo5">Comida </a>
-					 </nav>
                   </div>
 			  </article>
+        	
+            	<div class="main">
+				<div id="mi-slider" class="mi-slider">
+					<ul>
+						<li><a href="paginas/ciudad.html" ><h4>Guayaquil</h4></a></li>
+						<li><a href="paginas/ciudad.html" ><h4>Quito</h4></a></li>
+						<li><a href="paginas/ciudad.html" ><h4>Cuenca</h4></a></li>
+					</ul>
+					<ul>
+						<li><a href="paginas/restaurantes.html" ><img src="imagenes/kfc1.jpg" alt="img05"></a></li>
+						<li><a href="paginas/restaurantes.html" ><img src="imagenes/dulce.jpg" alt="img06"></a></li>
+						<li><a href="paginas/restaurantes.html" ><img src="imagenes/dominoes.png" alt="img07"></a></li>
+					</ul>
+					<ul>
+						<li><a href="paginas/comida.html" class="estilo2"><img src="imagenes/carne.jpg" alt="img09">Carnes</a></li>
+						<li><a href="paginas/comida.html" class="estilo2"><img src="imagenes/coffe.jpg" alt="img10">Coffee</a></li>
+						<li><a href="paginas/comida.html" class="estilo2"><img src="imagenes/3.jpg" alt="img11">Pizza</a></li>
+					</ul>
+					
+					<nav>
+						<a href="#" class="estilo5">Ciudad </a>
+						<a href="#" class="estilo5">Restaurante </a>
+						<a href="#" class="estilo5">Comida </a>
+					</nav>
+                    </div>
+                </div>
+            </div><!-- /container -->
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+			<script src="js/jquery.catslider.js"></script>
+			<script>
+                $(function() {
+    
+                    $( '#mi-slider' ).catslider();
+    
+                });
+            </script>	
 			  
 			  <div id="deslizante">
 			  
@@ -81,7 +113,7 @@
 
         <div class="puntos">
     		<p>&nbsp;</p>
-    		<p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - </p>
+    		<p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>
         </div>
       
        <footer>
