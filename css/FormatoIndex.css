@@ -36,6 +36,11 @@ body {
 }
 .estilo5{font-family: Contenido;font-size: 32px;color:#060; text-align:center
 }
+/*estilos beneficios*/
+.estilo6{font-family: Contenido;font-size: 20px;color:#060; text-align:center
+}
+.estilo7{font-family: Contenido;font-size: 32px;color:#933; text-align:center
+}
 
 header{
     background: url(../imagenes/background_header.jpg);    
@@ -72,6 +77,12 @@ footer{
 }
 .mascara{
 	font-size: 2px;
+}
+.bene img {
+	width: 60%;
+	 display: block;
+      margin-left: auto;
+      margin-right: auto;
 }
 
 /* estilo menu del index */
