@@ -41,7 +41,9 @@ body {
 }
 .estilo7{font-family: Contenido;font-size: 32px;color:#933; text-align:center
 }
-
+/*estilos nosotros*/
+.estilo8{font-family: Contenido;font-size: 40px;color:#933; text-align:center
+}
 header{
     background: url(../imagenes/background_header.jpg);    
     background-size: cover;
@@ -84,7 +86,12 @@ footer{
       margin-left: auto;
       margin-right: auto;
 }
-
+.noso img {
+	width: 55%;
+	 display: block;
+      margin-left: auto;
+      margin-right: 180;
+}
 /* estilo menu del index */
 
 .mi-slider {
