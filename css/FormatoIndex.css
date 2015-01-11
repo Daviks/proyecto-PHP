@@ -28,7 +28,7 @@ body {
 
 .estilo1{font-family: Contenido;font-size: 60px;color:#933; text-align:center
 }
-.estilo2{font-family: Contenido;font-size: 18px;color:#060; text-align:center
+.estilo2{font-family: Contenido;font-size: 22px;color:#060; text-align:center
 }
 .estilo3{font-family: Contenido;font-size: 45px;color:#933; text-align:center
 }
@@ -96,8 +96,8 @@ footer{
 
 .mi-slider {
 	position: relative;
-	margin-top: 30px;
-	height: 385px;
+	margin-top: 20px;
+	height: 340px;
 }
 
 .mi-slider ul {
@@ -127,7 +127,7 @@ footer{
 	display: inline-block;
 	padding: 20px;
 	width: 20%;
-	max-width: 300px;
+	max-width: 200px;
 	-webkit-transform: translateX(600%);
 	transform: translateX(600%);
 	-webkit-transition: opacity 0.2s linear;
@@ -171,9 +171,9 @@ footer{
 
 .mi-slider nav {
 	position: relative;
-	top: 250px;
+	top: 205px;
 	text-align: center;
-	max-width: 900px;
+	max-width: 800px;
 	margin: 0 auto;
 	border-top: 5px solid #933;
 }
@@ -214,7 +214,7 @@ footer{
 .mi-slider nav a.mi-selected:after {
 	border-color: transparent;
 	border-top-color: #fff;
-	border-width: 20px;
+	border-width: 10px;
 	left: 50%;
 	margin-left: -20px;
 }
