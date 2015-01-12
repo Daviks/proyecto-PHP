@@ -90,7 +90,7 @@ footer{
 	width: 55%;
 	 display: block;
       margin-left: auto;
-      margin-right: 180;
+      margin-right: auto;
 }
 .aplicacion img {
 	width: 100%;
@@ -114,7 +114,6 @@ footer{
 	bottom: 140px;
 	overflow: hidden;
 	text-align: center;
-	pointer-events: none;
 }
 
 .no-js .mi-slider ul {
@@ -126,7 +125,7 @@ footer{
 }
 
 .mi-slider ul.mi-current {
-	pointer-events: auto;
+	
 }
 
 .mi-slider ul li {
@@ -214,7 +213,6 @@ footer{
 	height: 0;
 	width: 0;
 	position: absolute;
-	pointer-events: none;
 }
 
 .mi-slider nav a.mi-selected:after {
@@ -381,7 +379,6 @@ footer{
 	-khtml-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
-	user-select: none;
 }
 
 /* Media Queries */
@@ -414,7 +411,6 @@ footer{
 		position: relative;
 		display: inline;
 		bottom: auto;
-		pointer-events: auto;
 	}
 
 	.mi-slider ul li {
@@ -434,13 +430,16 @@ footer{
 
 /*Fin del menu del index */
 
-/* INICIO ESTILO PARA DESLIZANTE */
-	
+/* INICIO ESTILO PARA DESLIZANTE 
+@import url(http://fonts.googleapis.com/css?family=Istok+Web);	
+*/
+
+
 #deslizante{
 width:50%;
 margin-left:25%;
 }
-@import url(http://fonts.googleapis.com/css?family=Istok+Web);
+
 @keyframes slidy {
 0% { left: 0%; }
 20% { left: 0%; }
