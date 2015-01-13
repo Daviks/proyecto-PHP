@@ -41,12 +41,8 @@ body {
 }
 .estilo7{font-family: Contenido;font-size: 32px;color:#933; text-align:center
 }
-
-
 /*estilos nosotros*/
 .estilo8{font-family: Contenido;font-size: 40px;color:#933; text-align:center
-}
-.estilo9{font-family: Contenido;font-size: 20px;color:#933; text-align:center
 }
 header{
     background: url(../imagenes/background_header.jpg);    
@@ -94,7 +90,7 @@ footer{
 	width: 55%;
 	 display: block;
       margin-left: auto;
-      margin-right: auto;
+      margin-right: 180;
 }
 .aplicacion img {
 	width: 100%;
@@ -118,6 +114,7 @@ footer{
 	bottom: 140px;
 	overflow: hidden;
 	text-align: center;
+	pointer-events: none;
 }
 
 .no-js .mi-slider ul {
@@ -129,7 +126,7 @@ footer{
 }
 
 .mi-slider ul.mi-current {
-	
+	pointer-events: auto;
 }
 
 .mi-slider ul li {
@@ -217,6 +214,7 @@ footer{
 	height: 0;
 	width: 0;
 	position: absolute;
+	pointer-events: none;
 }
 
 .mi-slider nav a.mi-selected:after {
@@ -383,6 +381,7 @@ footer{
 	-khtml-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
+	user-select: none;
 }
 
 /* Media Queries */
@@ -415,6 +414,7 @@ footer{
 		position: relative;
 		display: inline;
 		bottom: auto;
+		pointer-events: auto;
 	}
 
 	.mi-slider ul li {
@@ -1515,6 +1515,7 @@ margin-left:25%;
 
 
 /* FIN ESTILO PARA DESLIZANTE */
+
 /* ESTILO PARA ICONOS SOCIAL MEDIA */
 
 #socialMedia{
