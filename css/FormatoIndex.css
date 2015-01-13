@@ -41,8 +41,12 @@ body {
 }
 .estilo7{font-family: Contenido;font-size: 32px;color:#933; text-align:center
 }
+
+
 /*estilos nosotros*/
 .estilo8{font-family: Contenido;font-size: 40px;color:#933; text-align:center
+}
+.estilo9{font-family: Contenido;font-size: 20px;color:#933; text-align:center
 }
 header{
     background: url(../imagenes/background_header.jpg);    
