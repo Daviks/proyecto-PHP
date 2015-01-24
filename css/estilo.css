@@ -477,10 +477,20 @@ footer a:hover {text-decoration:none}
 #titulopag{
 
 color:white;
+position:absolute;
+margin-top:-2%;
 margin-left:45%;
 
 }
 
+#seccionbuscar{
+
+color:black;
+position:absolute;
+margin-top:1%;
+margin-left:65%;
+
+}
 
 
 #contenido{
