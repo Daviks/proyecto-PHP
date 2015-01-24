@@ -9,6 +9,10 @@
 				<?php include 'plantillasphp/headerBodyIndex.php' ; ?>
 	<!-- / header -->
 
+	<!-- content -->
+				<?php include 'plantillasphp/contenidoBodyIndex.php' ; ?>
+	<!-- / content -->
+
 				</div>
 			</div>
 		</div>
@@ -19,7 +23,7 @@
 
 				<!-- footer -->
 
-				<?php include 'plantillasphp/footer.php' ; ?>
+				<?php include 'plantillasphp/footerBodyIndex.php' ; ?>
 
 				<!-- /footer -->
 
