@@ -15,7 +15,7 @@
 					<nav>
 						<ul id="menu">
 							<li class="active"><a href="pages/restaurante.html">Restaurante</a></li>
-							<li><a href="pages/ciudad.html">Ciudad</a></li>
+							<li><a href="pages/Ciudad.php">Ciudad</a></li>
 							<li><a href="pages/comida.html">Comida</a></li>
                             <li><a href="pages/nuevaMarca.html">Administración</a></li>
                             <li><a href="pages/nosotros.html">Nosotros</a></li>
