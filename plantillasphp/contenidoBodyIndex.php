@@ -57,7 +57,7 @@
 									<figure><img src="images/page1_img1.jpg" alt="" ></figure>
 									<p class="pad_bot1"><a href="http://blog.templatemonster.com/2011/08/01/free-website-template-jquery-slider-typography-restaurant/" class="list_1">Crazy Food<br></a>"Consigue tu comida favorita más Rápido y Sencillo".</p>
                                     <br/>
-									<a href="pages/restaurante.html" class="button1">Leer Más</a>
+									<a href="pages/restaurante.php" class="button1">Leer Más</a>
 								</div>
 							</div>
 						</div>
@@ -71,7 +71,7 @@
 									<figure><img src="images/page1_img2.jpg" alt="" ></figure>
 									<p class="pad_bot1"> Somos "una empresa de jovenes " con visión creativa e innovadora
 en el ámbito de ventas y pedidos en línea para empresas gastronomicas.</p>
-									<a href="pages/nosotros.html" class="button1">Leer Más</a>
+									<a href="pages/nosotros.php" class="button1">Leer Más</a>
 								</div>
 							</div>
 						</div></section>
@@ -85,7 +85,7 @@ en el ámbito de ventas y pedidos en línea para empresas gastronomicas.</p>
 										<li><a href="#">Pedido de comida previo al arrivo del cliente al local</a></li>
 										<li><a href="#">Diversidad de pagos</a></li>
 									</ul>
-									<a href="pages/servicios.html" class="button1">Leer Más</a>
+									<a href="pages/servicios.php" class="button1">Leer Más</a>
 								</div>
 							</div>
 						</div></section>
