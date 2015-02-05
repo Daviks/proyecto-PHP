@@ -72,6 +72,7 @@
 	</div>
 </div>
 
-
+<!-- footer php -->
+<?php include '../plantillasphp/footRCC.php' ; ?>
 <script type="text/javascript"> Cufon.now(); </script>
 </body>
