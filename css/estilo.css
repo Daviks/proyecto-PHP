@@ -374,6 +374,7 @@ a {color:#a80002;text-decoration:none;outline:none}
 a:hover {text-decoration:underline}
 h1 {float:left;padding:0px 0 0 36px}
 h2 {font-size:40px;line-height:1.2em;color:#200000;padding:16px 0 12px 0;letter-spacing:-2px}
+.estilomarca {font-size:30px;line-height:1.2em;color:#FFF;padding:16px 0 12px 0;letter-spacing:-2px; text-align:center}
 .nuevo_estilo{font-size:30px;line-height:1.2em;color:#CC3333;padding:16px 0 12px 0;letter-spacing:-2px;  text-align:center}
 
 /*iniciio estilo nosotros*/
@@ -419,10 +420,11 @@ width:185px;
 .slider .pagination a {display:block;width:17px;height:17px;text-indent:-9999px;background:url(../images/buttons.png) right 0 no-repeat}
 .slider .pagination a:hover, .slider .pagination .current a {background-position:left}
 /* content */
+.linea{color:#900; font-size:25px; text-align:center}
 #content {padding-bottom:40px}
 #content2 {padding-bottom:31px}
 .pad_left1 {padding-left:30px}
-.pad_bot1 {padding-bottom:13px}
+.pad_bot1 {padding-bottom:13px; text-align:center}
 .pad_bot2 {padding-bottom:24px}
 .marg_right1 {margin-right:20px}
 .mag-1{border-left: 1px solid #E1DBD6; padding-left: 30px;}
