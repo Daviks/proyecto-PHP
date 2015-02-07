@@ -1,5 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php include '../plantillasphp/headRCC.php' ; ?>
+<?php include '../plantillasphp/headCiudad.php' ; ?>
 <?php include '../plantillasphp/bodyciudad.php' ; ?>
 </html>
