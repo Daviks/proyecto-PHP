@@ -4,9 +4,9 @@
 					<section class="col-2-3"><div class="wrap-col">
 						<figure id="crazy"><img src="../images/crazy1.png" alt="" ></figure>
                         <br>
-						<a rel="nofollow" href="../pages/beneficios.html" >Beneficios</a> 
+						<a rel="nofollow" href="../pages/beneficios.php" >Beneficios</a> 
                         <br>
-                        <a href="../pages/servicios.html">Servicios</a>
+                        <a href="../pages/servicios.php">Servicios</a>
 					</div></section>
 					<section class="col-1-3"><div class="wrap-col">
 						<h3>Siguenos </h3>
