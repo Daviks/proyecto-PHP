@@ -1,5 +1,5 @@
 <head>
-<title>Ingresar</title>
+<title>Crazy Food</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link rel="stylesheet" href="css/estilo.css" type="text/css" media="all">
