@@ -4,15 +4,15 @@
 		<div class="main zerogrid">
 
 <!-- header -->
-				<?php include 'plantillasphp/headerBodyNosotros.php' ; ?>
+				<?php include 'headerBodyNosotros.php' ; ?>
 	<!-- / header -->
 
 	<!-- content -->
-				<?php include 'plantillasphp/contenidoBodyNosotros.php' ; ?>
+				<?php include 'contenidoBodyNosotros.php' ; ?>
 	<!-- / content -->
 	<!-- footer -->
 
-				<?php include 'plantillasphp/footerBodyNosotros.php' ; ?>
+				<?php include 'footerBodyNosotros.php' ; ?>
 
 				<!-- /footer -->
 
