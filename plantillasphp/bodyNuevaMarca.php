@@ -9,7 +9,7 @@
 				<div class="wrap">
 					<div class="box">
 						<div>
-							<h2 class="letter_spacing">Registrar nueva marca</h2>
+							<h2 class="letter_spacing">Registrar nuevo restaurante</h2>
                             <br>
 							<form id="ContactForm">
 								<div>
@@ -44,39 +44,25 @@
 									</div>
 								</div>
 							</form>
-						</div>
-					</div>
-				</div><br>
-                
-                <div class="centrar">
-						<section class="col-1-3"><div class="centrar">
-							<div id="contenido">
-							  <div class="box">
-                                <div class="centrar">
-                                  <li><a href="nuevoPlatillo.html"><img src="../images/Nuevo platillo.png" alt="" ></a></li>
-                                </div>
-							</div>
-						</div>
-						</div>
-                        </section>
-						<section class="col-1-3"><div class="centrar">
-							<div class="box">
-								<div class="centrar">
-								  <li><a href="nuevaSucursal.html"><img src="../images/Nueva sucursal.png" alt="" ></a></li>
-								</div>
-							</div>
-						</div></section>
-			  </div>
+						
+                            <br>
+                            <div class="linea">- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</div>
+                             <br>
+                                          <div class="col-3-6">
+                            <figure class="pad_bot1"><a href="nuevoPlatillo.php"><img src="../images/disfruta.png" alt="" ></a></figure>
+                                  <p class="estilomarca"><a href="nuevoPlatillo.php">Nuevo <br> Platillo</a></p>
+                            </div>
+                                  
+							<div class="col-3-6">
+								<figure class="pad_bot1"><a href="nuevaSucursal.php"><img src="../images/elige.png" alt="" ></a></figure>
+                                  <p class="estilomarca"><a href="nuevaSucursal.php">Nueva <br> Sucursal</a></p>
+                            </div>
+                            
+						</div>   
+      				</div>
+				</div>
               
 			</article>
-		</div>
-	</div>
-</div>
-
-
-
-
-
 
 <div class="body3">
 
