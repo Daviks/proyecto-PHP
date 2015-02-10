@@ -1,6 +1,12 @@
 
 
-<?php include '../plantillasphp/headerBodyCiudad.php' ; ?>
+<body id="page1">
+<div class="body6">
+	<div class="body1">
+		<div class="body5">
+			<div class="main zerogrid">
+			
+			<?php include '../plantillasphp/headerRCC.php' ; ?>
 
 				<h2 id="titulopag"> Guayaquil </h2> <input  href="#" class="button1" id="seccionbuscar" type="submit" value="Buscar"><br><br> <input  id="seccionbuscar" type="search" name="buscar"><br>
 				

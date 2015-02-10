@@ -1,9 +1,4 @@
 
-<body id="page1">
-<div class="body6">
-	<div class="body1">
-		<div class="body5">
-			<div class="main zerogrid">
 <!-- header -->
 				<header>
 					<h1><a href="../index.php" id="logo"><img src="../images/logoenblanco.png" alt=""></a></h1>
