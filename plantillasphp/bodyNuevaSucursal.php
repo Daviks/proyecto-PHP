@@ -13,7 +13,7 @@
 							<form id="ContactForm">
 								<div>
 									<div class="wrapper">
-										<span>Dirección:</span>
+										<span>Ciudad:</span>
 									  <select name="cbxCiudad">
                                         <option value="1">(Seleccione ciudad)</option>
                                         <option value="2">Guayaquil</option>

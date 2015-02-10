@@ -9,7 +9,7 @@
 				<div class="wrap">
 					<div class="box">
 						<div>
-							<h2 class="letter_spacing">Ingresar nuevo platillo</h2>
+							<h2 class="letter_spacing">Ingresar nuevo plato</h2>
                             <br>
 							<form id="ContactForm">
 								<div>
@@ -20,6 +20,11 @@
                                     <br>
 									<div class="wrapper">
 										<span>Precio:</span>
+										<input type="text" class="input" >								
+									</div>
+                                    <br>
+									<div class="wrapper">
+										<span>Descripción:</span>
 										<input type="text" class="input" >								
 									</div>
                                     <br>											                                     <div class="wrapper">
