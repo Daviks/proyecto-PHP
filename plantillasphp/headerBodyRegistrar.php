@@ -6,12 +6,12 @@
 			<div class="main zerogrid">
 <!-- header -->
 				<header>
-					<h1><a href="../index.php" id="logo"><img src="../images/logoenblanco.png" alt=" " /></a></h1>
+					<h1><a href="index.php" id="logo"><img src="images/logoenblanco.png" alt=" " /></a></h1>
 					<nav>
 						<ul id="top_nav">
-							<li><a href="pages/ingresar.php"><img src="../images/icon_1.gif" alt=""></a></li>
-							<li><a href="#"><img src="../images/icon_2.gif" alt=""></a></li>
-							<li class="end"><a href="pages/ayuda.php"><img src="../images/icon_3.gif" alt=""></a></li>
+							<li><a href="pages/ingresar.php"><img src="images/icon_1.gif" alt=""></a></li>
+							<li><a href="#"><img src="images/icon_2.gif" alt=""></a></li>
+							<li class="end"><a href="pages/ayuda.php"><img src="images/icon_3.gif" alt=""></a></li>
 						</ul>
 					</nav>
 					<nav>
