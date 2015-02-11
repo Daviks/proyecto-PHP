@@ -50,7 +50,7 @@
                              <br>
                                           <div class="col-3-6">
                             <figure class="pad_bot1"><a href="nuevoPlatillo.php"><img src="../images/disfruta.png" alt="" ></a></figure>
-                                  <p class="estilomarca"><a href="nuevoPlatillo.php">Nuevo <br> Platillo</a></p>
+                                  <p class="estilomarca"><a href="nuevoPlatillo.php">Nuevo <br> Plato</a></p>
                             </div>
                                   
 							<div class="col-3-6">
