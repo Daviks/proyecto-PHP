@@ -3,13 +3,13 @@
       
       private $Id_Usuario;
       private $Usuario;
-      private $Contraseña;
+      private $Contrasena;
       private $Cliente;
       
-      function construc($id_usuario,$usuario,$contraseña,$cliente){
+      function construc($id_usuario,$usuario,$contrasena,$cliente){
           $this->Id_Usuario=$id_usuario;
           $this->Usuario=$usuario;
-          $this->Contraseña=$contraseña;
+          $this->Contraseña=$contrasena;
           $this->Cliente=$cliente;
       }
       
@@ -27,11 +27,11 @@
          return $this->Usuario;
       }
       
-      function setContraseña($contraseña){
+      function setContraseña($contrasena){
           $this->Contraseña=$contraseña;
       }
       function getContraseña(){
-          return $this->Contraseña;
+          return $this->Contrasena;
       }
       
       function setCliente($cliente){
