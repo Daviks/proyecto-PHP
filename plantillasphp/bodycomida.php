@@ -12,7 +12,7 @@
 									<div id="banner_left">
 										<ul id="menu_categorias">
 											<li id="cate">Categorias</li>
-											<li>Café</li>
+											<li>Caf&eacute</li>
 											<li>Pizza</li>
 											<li>Mariscos</li>
 											<li>Carnes</li>

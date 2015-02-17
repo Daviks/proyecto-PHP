@@ -1,24 +1,21 @@
 
+
 <body id="page1">
 <div class="body6">
 	<div class="body1">
 		<div class="body5">
 			<div class="main zerogrid">
-<!-- header -->
-				
-				<?php include '../plantillasphp/headerRCC.php' ; ?>
-				
-				<h2 id="titulopag"> Cafeterías </h2> <input  href="#" class="button1" id="seccionbuscar" type="submit" value="Buscar"><br><br> <input  id="seccionbuscar" type="search" name="buscar"><br>
-				
-<!-- / header -->
-	
+			
+			<?php include '../plantillasphp/headerRCC.php' ; ?>
+
+				<h2 id="titulopag"> Guayaquil </h2> <input  href="#" class="button1" id="seccionbuscar" type="submit" value="Buscar"><br><br> <input  id="seccionbuscar" type="search" name="buscar"><br>
 				
 				<div id="contenido">
 				
 									<div id="banner_left">
 										<ul id="menu_categorias">
-											<li id="cate">Categorias</li>
-											<li>Café</li>
+											<li id="cate">Categor&iacuteas</li>
+											<li>Caf&eacute</li>
 											<li>Pizza</li>
 											<li>Mariscos</li>
 											<li>Carnes</li>
@@ -28,35 +25,26 @@
 									</div>
 									
 									<div id="banner_right">
-										<img src="../images/dominoes.png" class="imares"  alt="res1" />
-										<img src="../images/kfc.png" class="imares"  alt="res1" />
-										<img src="../images/mc2.png" class="imares"  alt="res1" />
-										  <br/>  <br/>  <br/>  <br/>
-										<a rel="nofollow" href="../pages/ingresar_restaurante.html" >Anúnciate con nosotros aquí...</a>
-											
-										<p>		
+										<img src="../images/Tomate.png" class="imares"  alt="res1">
+										<img src="../images/mcdonalds.png" class="imares"  alt="res1" >
+										<img src="../images/Menestras_Del_Negro_Logo.jpg" class="imares"  alt="res1" >
+												
+										
 									</div>
-									
 								  <br/> 
-								  
 				</div>
 	
 				
-
+<!-- / header -->
 <!-- content -->
-				<article id="content">
-					
-							
+				<article id="content">							
 				</article>
-				
-				
-				
+
 			</div>
 		</div>
-	</div>
+				</div>
 </div>
 
-<!-- footer php -->
 <?php include '../plantillasphp/footRCC.php' ; ?>
 <script type="text/javascript"> Cufon.now(); </script>
 </body>

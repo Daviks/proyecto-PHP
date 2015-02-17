@@ -12,7 +12,7 @@
 					<nav>
 						<ul id="menu">
 							<li><a href="../pages/restaurante.php">Restaurante</a></li>
-							<li class="active"><a href="../pages/ciudad.php">Ciudad</a></li>
+							<li class=""><a href="../pages/ciudad.php">Ciudad</a></li>
 							<li><a href="../pages/comida.php">Comida</a></li>
                             <li><a href="../pages/nuevaMarca.php">Administración</a></li>
                             <li><a href="../pages/nosotros.php">Nosotros</a></li>
