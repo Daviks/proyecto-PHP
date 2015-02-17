@@ -11,7 +11,7 @@
 	}
 	
 	function createCiudad($Nombre) {    
-    	$insertrow = self::$db->insertRow("INSERT INTO Ciudad (idCiudad, Nombre) VALUES (?, ?)", array(null, "{$Nombre}"));
+    	$insertrow = self::$db->insertRow("INSERT INTO Ciudad (id, Nombre) VALUES (?, ?)", array(null, "{$Nombre}"));
 	}  
 
   	/*function readHorario($idHorario) {
