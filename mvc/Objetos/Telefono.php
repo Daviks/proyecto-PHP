@@ -35,8 +35,8 @@ class Telefono
 		$this->Tipo = $Tipo;
 	}
 	
-	function setDescripción($Descripción){
-		$this->Descripción = $Descripción;
+	function setDescripcion($Descripcion){
+		$this->Descripción = $Descripcion;
 	}
 	
 	function setIdCliente($idCliente){
