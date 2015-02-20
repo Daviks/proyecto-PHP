@@ -25,7 +25,15 @@
 										<input type="text" class="input" >								
 									</div>                                    <br>
 									<div class="wrapper">
+										<span>Usuario:</span>
+										<input type="text" class="input" >								
+									</div>                                    <br>
+									<div class="wrapper">
 										<span>Contraseña:</span>
+										<input type="text" class="input" >								
+									</div><br>
+									<div class="wrapper">
+										<span>Repetir contraseña:</span>
 										<input type="text" class="input" >								
 									</div>
                                                                        <br>
