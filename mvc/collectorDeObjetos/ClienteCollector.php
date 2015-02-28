@@ -1,5 +1,5 @@
 <?php
-	include_one('../Objetos/Cliente.php');
+	include_one('../baseDeDatos/Cliente.php');
 	include_one('../collector/Collector.php');
 
   class ClienteCollector extends Collector{

@@ -1,6 +1,6 @@
 <?php
  include_once('../mvc/objetos/Marca.php');
- include_once('../mvc/collector/Collector.php');
+ include_once('../mvc/baseDeDatos/Collector.php');
  
  class HorarioCollector extends Collector
  {

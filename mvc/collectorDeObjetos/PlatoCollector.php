@@ -1,7 +1,7 @@
 <?php
 
 include_once('../objetos/Plato.php');
-include_once('../collector/Collector.php');
+include_once('../baseDeDatos/Collector.php');
 
 class PlatoCollector extends Collector
 {

@@ -1,6 +1,6 @@
 <?php
  include_once('../mvc/objetos/Ciudad.php');
- include_once('../mvc/collector/Collector.php');
+ include_once('../mvc/baseDeDatos/Collector.php');
  
  class CiudadCollector extends Collector
  {

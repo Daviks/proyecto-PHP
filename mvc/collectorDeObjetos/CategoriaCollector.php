@@ -1,7 +1,7 @@
 <?php
 
 include_once('../objetos/Categoria.php');
-include_once('../collector/Collector.php');
+include_once('../baseDeDatos/Collector.php');
 
 class CategoriaCollector extends Collector
 {

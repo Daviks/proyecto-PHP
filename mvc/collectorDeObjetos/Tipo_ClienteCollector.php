@@ -1,6 +1,6 @@
 <?php
 	include_one('../Objetos/Tipo_Cliente.php');
-	include_one('../collector/Collector.php');
+	include_one('../baseDeDatos/Collector.php');
 
   class Tipo_ClienteCollector extends Collector{
       

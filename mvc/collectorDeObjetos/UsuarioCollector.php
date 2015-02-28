@@ -1,6 +1,6 @@
 <?php
 	include_one('../Objetos/Usuario.php');
-	include_one('../collector/Collector.php');
+	include_one('../baseDeDatos/Collector.php');
 
   class UsuarioCollector extends Collector{
       

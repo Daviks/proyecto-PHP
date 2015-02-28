@@ -1,5 +1,5 @@
 <?php
-include_once('../baseDeDatos/dataBase.php');
+include_once('dataBase.php');
 
 // Define configuration
 define("DB_HOST", "localhost");

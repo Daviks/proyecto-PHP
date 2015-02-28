@@ -1,6 +1,6 @@
 <?php
  include_once('../mvc/objetos/Sucursal.php');
- include_once('../mvc/collector/Collector.php');
+ include_once('../mvc/baseDeDatos/Collector.php');
  
  class SucursalCollector extends Collector
  {
