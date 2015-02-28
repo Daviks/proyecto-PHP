@@ -18,7 +18,8 @@
 			            <input type="text" class="input" >
 		              </div>
 			          <div class="centrar"> <br>
-			            <a href="#" class="button1" onClick="document.getElementById('ContactForm').submit()">Aceptar</a> <a href="#" class="button1" onClick="document.getElementById('ContactForm').reset()">Cancelar</a> </div>
+			            <a href="#" class="button1" onClick="document.getElementById('ContactForm').submit()">Aceptar</a>
+				    <a href="../index.php" class="button1" onClick="document.getElementById('ContactForm').reset()">Cancelar</a> </div>
 		            </div>
 		          </form>
 		        </div>

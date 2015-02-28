@@ -50,7 +50,7 @@
 									<div class="centrar">
                                     <br>
 									<a href="#" class="button1" onClick="document.getElementById('ContactForm').submit()">Registrar</a>
-									<a href="#" class="button1" onClick="document.getElementById('ContactForm').reset()">Cancelar</a>		
+									<a href="../index.php" class="button1" onClick="document.getElementById('ContactForm').reset()">Cancelar</a>		
 									</div>
 								</div>
 							</form>
