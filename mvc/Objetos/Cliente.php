@@ -11,7 +11,7 @@ class Cliente{
     function construct($id_cliente,$nombre,$apellido,$email,$numero_tarjeta,$tipo_cliente){
         $this->Id_Cliente=$id_cliente;
         $this->Nombre=$nombre;
-        $this->Apellido=$Apellido;
+        $this->Apellido=$apellido;
         $this->Email=$email;
         $this->Numero_Tarjeta=$numero_tarjeta;
         $this->Tipo_Cliente=$tipo_cliente;
@@ -57,4 +57,5 @@ class Cliente{
     Function getTipo_Cliente(){
         return $this->Tipo_Cliente;
     }
-}?>
+}
+?>
