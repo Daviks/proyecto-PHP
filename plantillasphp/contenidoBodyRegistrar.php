@@ -9,7 +9,7 @@
 							<h2 class="letter_spacing">Registrar</h2>
                             <br>
 				
-							<form id="ContactForm">
+                            <form action="../mvc/controladores/insertarUsuario.php" method="POST" id="ContactForm">
 								<div>
 									<div class="wrapper">
 										<span>Nombre:</span>
