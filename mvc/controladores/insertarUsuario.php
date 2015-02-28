@@ -8,6 +8,14 @@ $direccion=$_POST["direccion"];
 $telefono=$_POST["telefono"];
 //$valor="manuel";
 
+echo '$nombre';
+echo '$apellido';
+echo '$email';
+echo '$usuario';
+echo '$contrasena';
+echo '$direccion';
+echo '$telefono';
+
 include_once("../collectorDeObjetos/UsuarioCollector.php");
 include_once("../collectorDeObjetos/ClienteCollector.php");
 include_once("../collectorDeObjetos/Tipo_ClienteCollector.php");
