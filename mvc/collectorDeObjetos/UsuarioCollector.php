@@ -1,5 +1,5 @@
 <?php
-	include_one('../Objetos/Usuario.php');
+	include_one('../objetos/Usuario.php');
 	include_one('../baseDeDatos/Collector.php');
 
   class UsuarioCollector extends Collector{
@@ -26,16 +26,16 @@
           return $arrayUsuario;
       }
       
-       function updateUsuario($id,$usuario,$contraseña,$cliente) {    
-       $insertrow = self::$db->updateRow("UPDATE Usuario SET Usuario=?,Contraseña=?,Cliente_Id=? WHERE Id = ? ", array( "{$usuario},{$contraseña},{$cliente}",$id));
+       function updateUsuario($id,$usuario,$contrasena,$cliente) {    
+       $insertrow = self::$db->updateRow("UPDATE Usuario SET Usuario=?,contrasena=?,Cliente_Id=? WHERE Id = ? ", array( "{$usuario},{$contrasena},{$cliente}",$id));
       } 
       
        function deleteUsuario($id) {    
        $deleterow = self::$db->deleteRow("DELETE FROM Usuario WHERE Id= ?", array("{$id}"));
       }  
 
-        function createUsuario($id,$usuario,$contraseña,$cliente) {    
-        $insertrow = self::$db->insertRow("INSERT INTO Usuario (Id,Usuario,Contraseña,Cliente_Id) VALUES (?,?,?,?)", array(null,"{$usuario}","{$contraseña}","{$cliente}"));
+        function createUsuario($id,$usuario,$contrasena,$cliente) {    
+        $insertrow = self::$db->insertRow("INSERT INTO Usuario (Id,Usuario,contrasena,Cliente_Id) VALUES (?,?,?,?)", array(null,"{$usuario}","{$contrasena}","{$cliente}"));
        }  
       
   }
