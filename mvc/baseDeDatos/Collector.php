@@ -5,7 +5,7 @@ include_once('dataBase.php');
 define("DB_HOST", "localhost");
 define("DB_USER", "root");
 define("DB_PASS", "estudiante");
-define("DB_NAME", "clase");
+define("DB_NAME", "CrazzyFood");
 
 
 class Collector extends dataBase
