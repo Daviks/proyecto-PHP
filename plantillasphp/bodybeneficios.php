@@ -6,11 +6,76 @@
 				<div class="main zerogrid">
 
 	<!-- header -->
-				<?php include 'headerBodyBeneficios.php' ; ?>
-	<!-- / header -->
-
+				
+				<!-- header -->
+							<?php include '../plantillasphp/headerRCC.php' ; ?>
+				<!-- / header -->
 	<!-- content -->
-				<?php include 'contenidoBodyBeneficios.php' ; ?>
+			<article id="content">
+				<div class="wrap">
+					<section class="col-1-3"></section>
+					<section class="col-1-3"></section>
+					<section class="col-1-3"></section>
+				</div>
+			</article>
+		</div>
+	</div>
+</div>
+
+<div class="body2">
+	<div class="main zerogrid">
+		<article id="content2">
+			<div class="wrapper">
+				<section>
+					<h2 class="nuevo_noso">Beneficios</h2>
+                    <br/>
+					<div class="wrapper">
+                    
+						<div class="col-1-4">
+                        <div class="wrap-col ">
+							<div class="wrapper pad_bot1">
+								<figure class="pad_bot1"><img src="../images/busca.png" alt=""></figure>
+                                <h2 class="nuevo_estilo"><span>Busca</span></h2>
+								Encuentra los restaurantes que entregan en tu domicilio.
+							</div>
+						</div>
+                        </div>
+                        
+						<div class="col-1-4">
+                        <div class="wrap-col mag-1">
+							<div class="wrapper pad_bot1">
+								<figure class="pad_bot1"><img src="../images/elige.png" alt=""></figure>
+                                <h2 class="nuevo_estilo"><span>Elige</span></h2>
+								Explora cientos de menús y encuentra la comida que más te gusta.
+							</div>
+						</div></div>
+                        
+						<div class="col-1-4">
+                        <div class="wrap-col mag-1">
+							<div class="wrapper pad_bot1">
+								<figure class="pad_bot1"><img src="../images/paga.png" alt=""></figure>
+                                <h2 class="nuevo_estilo"><span>Paga</span></h2>
+								Paga de forma rápida y segura en línea o en tu puerta en efectivo.
+							</div>
+                            </div>
+                            </div>
+                            
+                            <div class="col-1-4">
+                            <div class="wrap-col mag-1">
+							<div class="wrapper pad_bot1">
+								<figure class="pad_bot1"><img src="../images/disfruta.png" alt=""></figure>
+                                <h2 class="nuevo_estilo"><span>Disfruta</span></h2>
+								La comida es preparada y entregada a tu puerta por el restaurante.
+							</div>
+                            </div>
+                            </div>
+                        
+					</div>
+
+				</section>
+			</div>
+		</article>
+
 	<!-- / content -->
 
 				</div>
@@ -18,16 +83,6 @@
 		</div>
 	</div>
 
-	<div class="body3">
-			<div class="main zerogrid">
-
-				<!-- footer -->
-
-				<?php include 'footerBodyBeneficios.php' ; ?>
-
-				<!-- /footer -->
-
-			</div>
-	</div>
+	<?php include '../plantillasphp/footRCC.php' ; ?>
 	<script type="text/javascript"> Cufon.now(); </script>
 </body>

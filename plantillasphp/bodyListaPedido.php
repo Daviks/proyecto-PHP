@@ -1,6 +1,13 @@
 
 
-<?php include '../plantillasphp/headerBodyListaPedido.php' ; ?>
+<body id="page1">
+<div class="body6">
+	<div class="body1">
+		<div class="body5">
+			<div class="main zerogrid">
+<!-- header -->
+				<?php include '../plantillasphp/headerRCC.php' ; ?>
+
 
 				<h2 id="titulopag"> Lista de Pedido </h2> 
 				<br>
@@ -43,6 +50,16 @@
 				</div>
 </div>
 <br>
-<?php include '../plantillasphp/footerBodyIngresar.php' ; ?>
+	<div class="body3">
+			<div class="main zerogrid">
+
+				<!-- footer -->
+
+				<?php include '../plantillasphp/footRCC.php' ; ?>
+
+				<!-- /footer -->
+
+			</div>
+	</div>
 <script type="text/javascript"> Cufon.now(); </script>
 </body>

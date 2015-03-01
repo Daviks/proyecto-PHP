@@ -1,5 +1,13 @@
 <!-- content -->
-<?php include '../plantillasphp/headerBodyAyuda.php' ; ?>
+<body id="page1">
+<div class="body6">
+	<div class="body1">
+		<div class="body5">
+			<div class="main zerogrid">
+<!-- header -->
+				<?php include '../plantillasphp/headerRCC.php' ; ?>
+	
+
 <br>
 <br>
 			<article id="content">

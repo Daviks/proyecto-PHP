@@ -1,9 +1,17 @@
 <!-- content -->
-<?php include '../plantillasphp/headerBodyNuevaSucursal.php' ; ?>
-<!-- content -->
-<br>
-<br>
+<body id="page1">
+<div class="body6">
+	<div class="body1">
+		<div class="body5">
+			<div class="main zerogrid">
+<!-- header -->
+				<?php include '../plantillasphp/headerRCC.php' ; ?>
+	
 
+<br>
+<br>
+			
+			
 			<article id="content">
 				<div class="wrap">
 					<div class="box">
@@ -47,19 +55,17 @@
 					</div>
 				</div>
 			</article>
+			
 		</div>
 	</div>
 </div>
-
-
-
-
-
-
-<div class="body3">
-
-		<div class="main zerogrid">
-        
-        <?php include '../plantillasphp/footRCC.php' ; ?>
+<div class="body2">
+	<div class="main zerogrid">
+		
+<!-- / content -->
+	</div>
+</div>
+</div>
+<?php include '../plantillasphp/footRCC.php' ; ?>
 <script type="text/javascript"> Cufon.now(); </script>
 </body>

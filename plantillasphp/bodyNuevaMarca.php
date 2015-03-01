@@ -1,10 +1,17 @@
 <!-- content -->
-<?php include '../plantillasphp/headerBodyNuevaMarca.php' ; ?>
+<body id="page1">
+<div class="body6">
+	<div class="body1">
+		<div class="body5">
+			<div class="main zerogrid">
+<!-- header -->
+				<?php include '../plantillasphp/headerRCC.php' ; ?>
+	
 
-<!-- content -->
 <br>
 <br>
-
+			
+			
 			<article id="content">
 				<div class="wrap">
 					<div class="box">
@@ -63,11 +70,17 @@
 				</div>
               
 			</article>
-
-<div class="body3">
-
-		<div class="main zerogrid">
+			
+		</div>
+	</div>
+</div>
+<div class="body2">
+	<div class="main zerogrid">
 		
-		<?php include '../plantillasphp/footRCC.php' ; ?>
+<!-- / content -->
+	</div>
+</div>
+</div>
+<?php include '../plantillasphp/footRCC.php' ; ?>
 <script type="text/javascript"> Cufon.now(); </script>
 </body>
