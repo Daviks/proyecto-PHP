@@ -6,12 +6,12 @@ class Tipo_Cliente{
     
     function construct($id_tipo_cliente,$descripcion){
         
-        $this->id_Tipo_Cliente=$ide_tipo_cliente;
+        $this->id_Tipo_Cliente=$id_tipo_cliente;
         $this->descripcion=$descripcion;
         
     }
     
-    function setId_Tipo_Cliente($id_tipo_Cliente){
+    function setId_Tipo_Cliente($id_tipo_cliente){
         $this->id_Tipo_Cliente=$id_tipo_cliente;
         }
     function getId_Tipo_Cliente(){

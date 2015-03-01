@@ -28,7 +28,7 @@
       }
       
       function setContraseña($contrasena){
-          $this->Contraseña=$contraseña;
+          $this->Contraseña=$contrasena;
       }
       function getContraseña(){
           return $this->Contrasena;

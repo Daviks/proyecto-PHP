@@ -6,7 +6,7 @@
       
       function ShowUsuario($id){
           
-          $row=self::$db->getRows("Select * From Usuario where Id= ?",array("{$id}"));
+          $row=self::$db->getRows("Select * From CrazzyFood.Usuario where Id= ?",array("{$id}"));
           
           $Usuario=new Usuario($row[0]{'Id'});
           
@@ -15,7 +15,7 @@
       
       
       function ReadUsuario(){
-          $rows=self::$db->getRows("Select * From Usuario");
+          $rows=self::$db->getRows("Select * From CrazzyFood.Usuario");
           
           $arrayUsuario= array();
           
@@ -27,15 +27,15 @@
       }
       
        function updateUsuario($id,$usuario,$contrasena,$cliente) {    
-       $insertrow = self::$db->updateRow("UPDATE Usuario SET Usuario=?,contrasena=?,Cliente_Id=? WHERE Id = ? ", array( "{$usuario},{$contrasena},{$cliente}",$id));
+       $insertrow = self::$db->updateRow("UPDATE CrazzyFood.Usuario SET Usuario=?,contrasena=?,Cliente_Id=? WHERE Id = ? ", array( "{$usuario},{$contrasena},{$cliente}",$id));
       } 
       
        function deleteUsuario($id) {    
-       $deleterow = self::$db->deleteRow("DELETE FROM Usuario WHERE Id= ?", array("{$id}"));
+       $deleterow = self::$db->deleteRow("DELETE FROM CrazzyFood.Usuario WHERE Id= ?", array("{$id}"));
       }  
 
         function createUsuario($id,$usuario,$contrasena,$cliente) {    
-        $insertrow = self::$db->insertRow("INSERT INTO Usuario (Id,Usuario,contrasena,Cliente_Id) VALUES (?,?,?,?)", array(null,"{$usuario}","{$contrasena}","{$cliente}"));
+        $insertrow = self::$db->insertRow("INSERT INTO CrazzyFood.Usuario (Id,Usuario,contrasena,Cliente_Id) VALUES (?,?,?,?)", array(null,"{$usuario}","{$contrasena}","{$cliente}"));
        }  
       
   }
