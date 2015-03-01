@@ -4,6 +4,7 @@ $apellido=$_POST["apellido"];
 $email=$_POST["email"];
 $usuario=$_POST["usuario"];
 $contrasena=$_POST["contrasena"];
+$numtarjeta=$_POST["numtarjeta"];
 $direccion=$_POST["direccion"];
 $telefono=$_POST["telefono"];
 //$valor="manuel";
@@ -18,7 +19,7 @@ include_once("../objetos/Tipo_Cliente.php");
 
 $clientecol= new ClienteCollector();
 $tipo=1;
-$clientecol->createCliente($nombre,$apellido,$email,$direccion,$telefono,$tipo);
+$clientecol->createCliente($nombre,$apellido,$email,$numtarjeta,$tipo);
 $clientecol->showClienteNombre($nombre);
 $id=$clientecol.id;
 $Usuario = new UsuarioCollector();
