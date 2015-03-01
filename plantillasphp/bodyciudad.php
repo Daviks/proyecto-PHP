@@ -23,11 +23,11 @@
 										</ul>
 
 									</div>
-									
+									echo "<td><a href='pages/restaurante.php?titulo="."holaaa"."'>Nueva con titulo</a></td>"; 
 									<div id="banner_right">
-										<a href="../pages/restaurante.php" title="Quito"><img src="../images/quito.png" id="ima1" class="imares"  alt="res1"></a>
-										<a href="../pages/restaurante.php" title="Cuenca"><img src="../images/cuenca.png" id="ima2" class="imares"  alt="res1" ></a>
-										<a href="../pages/restaurante.php" title="Guayaquil"><img src="../images/guayaquil.png" id="ima3" class="imares"  alt="res1" ></a>
+										<a href='../pages/restaurante.php?titulo=Quito' title="Quito"><img src="../images/quito.png" id="ima1" class="imares"  alt="res1"></a>
+										<a href='../pages/restaurante.php?titulo=Cuenca' title="Cuenca"><img src="../images/cuenca.png" id="ima2" class="imares"  alt="res1" ></a>
+										<a href='../pages/restaurante.php?titulo=Guayaquil' title="Guayaquil"><img src="../images/guayaquil.png" id="ima3" class="imares"  alt="res1" ></a>
 												
 										
 									</div>

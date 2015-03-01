@@ -46,7 +46,7 @@
 							<div class="wrapper pad_bot1">
 								<figure class="pad_bot1"><img src="../images/elige.png" alt=""></figure>
                                 <h2 class="nuevo_estilo"><span>Elige</span></h2>
-								Explora cientos de menús y encuentra la comida que más te gusta.
+								Explora cientos de men&uacute;s y encuentra la comida que m&aacute;s te gusta.
 							</div>
 						</div></div>
                         
@@ -55,7 +55,7 @@
 							<div class="wrapper pad_bot1">
 								<figure class="pad_bot1"><img src="../images/paga.png" alt=""></figure>
                                 <h2 class="nuevo_estilo"><span>Paga</span></h2>
-								Paga de forma rápida y segura en línea o en tu puerta en efectivo.
+								Paga de forma r&aacute;pida y segura en l&iacute;nea o en tu puerta en efectivo.
 							</div>
                             </div>
                             </div>
