@@ -38,6 +38,11 @@
 										<input type="text" name="repetircontraseÒa" class="input" >								
 									</div>
                                                                        <br>
+                                                                       									<div class="wrapper">
+										<span>Numero Tarjeta:</span>
+										<input type="text" name="numtarjeta" class="input" >								
+									</div>
+                                    <br>
 									<div class="wrapper">
 										<span>Direcci√≥n:</span>
 										<input type="text" name="direccion" class="input" >								
