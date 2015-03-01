@@ -8,7 +8,7 @@
 			
 			<?php include '../plantillasphp/headerRCC.php' ; ?>
 
-				<h2 id="titulopag"> Servicios </h2> <input  href="#" class="button1" id="seccionbuscar" type="submit" value="Buscar"><br><br> <input  id="seccionbuscar" type="search" name="buscar"><br>
+				
 				
 				<article id="content">
 				<div class="wrap">
