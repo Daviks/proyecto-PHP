@@ -1,7 +1,14 @@
 
 <?php
 //obtener el valor de ID que viene del metodo GET a traves de HTTP
-$id=$_GET["titulo"];
+//$id=$_GET["titulo"];
+if(isset($_GET["titulo"])==true){
+	$id = $_GET["titulo"]; 
+}
+else
+{
+	$id = "Restaurantes";
+}
 
 ?>
 <body id="page1">
@@ -12,7 +19,12 @@ $id=$_GET["titulo"];
 			
 			<?php include '../plantillasphp/headerRCC.php' ; ?>
 
-				<h2 id="titulopag"> <?php echo $id; ?>  </h2> <input  href="#" class="button1" id="seccionbuscar" type="submit" value="Buscar"><br><br> <input  id="seccionbuscar" type="search" name="buscar"><br>
+				
+				<h2 id="titulopag"> 
+				<?php 
+				echo $id
+				?>  
+				</h2> <input  href="#" class="button1" id="seccionbuscar" type="submit" value="Buscar"><br><br> <input  id="seccionbuscar" type="search" name="buscar"><br>
 				
 				<div id="contenido">
 				

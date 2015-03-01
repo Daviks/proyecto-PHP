@@ -43,11 +43,11 @@
 										<input type="text" name="usuario"  class="input" >								
 									</div>                                    <br>
 									<div class="wrapper">
-										<span>ContraseÃ±a:</span>
+										<span>Contrase&ntilde;a:</span>
 										<input type="text" name="contrasena" class="input" >								
 									</div><br>
 									<div class="wrapper">
-										<span>Repetir contraseÃ±a:</span>
+										<span>Repetir contrase&ntilde;a:</span>
 										<input type="text" name="repetircontraseña" class="input" >								
 									</div>
                                                                        <br>

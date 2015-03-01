@@ -36,7 +36,7 @@
 							<div class="wrapper pad_bot1">
 								<figure class="pad_bot1"><img src="../images/s1.png" alt=""></figure>
 
-Presentación de una lista de sucursales de los centros gastronomicos más cercanos a la ubicación de tu hogar.
+Presentaci&oacute;n de una lista de sucursales de los centros gastronomicos m&aacute;s cercanos a la ubicaci&oacute;n de tu hogar.
 							</div>
 						</div>
                         </div>
@@ -54,7 +54,7 @@ Busqueda de restaurantes, dependiendo del tipo de comida que mas apetesca.
 							<div class="wrapper pad_bot1">
 								<figure class="pad_bot1"><img src="../images/s3.png" alt=""></figure>
  Dependiendo del tipo de comida que mas apetesca.
-Compras de comida en línea, de los diversos centros gastronomicos de manera rápida ,segura y sencilla.
+Compras de comida en l&iacute;nea, de los diversos centros gastronomicos de manera r&aacute;pida ,segura y sencilla.
 							</div>
                             </div>
                             </div>

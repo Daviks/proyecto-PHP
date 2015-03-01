@@ -24,7 +24,7 @@
 			            <input type="text" class="input" >
 		              </div>
 			          <br>
-			          <div class="wrapper"> <span>Contraseña:</span>
+			          <div class="wrapper"> <span>Contrase&ntilde;a:</span>
 			            <input type="text" class="input" >
 		              </div>
 			          <div class="centrar"> <br>
