@@ -8,7 +8,7 @@
 			
 			<?php include '../plantillasphp/headerRCC.php' ; ?>
 
-				<h2 id="titulopag"> Guayaquil </h2> <input  href="#" class="button1" id="seccionbuscar" type="submit" value="Buscar"><br><br> <input  id="seccionbuscar" type="search" name="buscar"><br>
+				<h2 id="titulopag"> Ciudades </h2> <input  href="#" class="button1" id="seccionbuscar" type="submit" value="Buscar"><br><br> <input  id="seccionbuscar" type="search" name="buscar"><br>
 				
 				<div id="contenido">
 				
@@ -25,9 +25,9 @@
 									</div>
 									
 									<div id="banner_right">
-										<img src="../images/Tomate.png" class="imares"  alt="res1">
-										<img src="../images/mcdonalds.png" class="imares"  alt="res1" >
-										<img src="../images/Menestras_Del_Negro_Logo.jpg" class="imares"  alt="res1" >
+										<a href="../pages/restaurante.php" ><img src="../images/quito.png" class="imares"  alt="res1"></br>Quito</a>
+										<a href="../pages/restaurante.php" ><img src="../images/cuenca.png" class="imares"  alt="res1" ></br>Cuenca</a>
+										<a href="../pages/restaurante.php" ><img src="../images/guayaquil.png" class="imares"  alt="res1" ></br>Guayaquil</a>
 												
 										
 									</div>
