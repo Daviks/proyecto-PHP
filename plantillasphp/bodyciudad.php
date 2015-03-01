@@ -25,9 +25,9 @@
 									</div>
 									
 									<div id="banner_right">
-										<a href="../pages/restaurante.php" ><img src="../images/quito.png" class="imares"  alt="res1"></br>Quito</a>
-										<a href="../pages/restaurante.php" ><img src="../images/cuenca.png" class="imares"  alt="res1" ></br>Cuenca</a>
-										<a href="../pages/restaurante.php" ><img src="../images/guayaquil.png" class="imares"  alt="res1" ></br>Guayaquil</a>
+										<a href="../pages/restaurante.php" title="Quito"><img src="../images/quito.png" class="imares"  alt="res1"></a>
+										<a href="../pages/restaurante.php" title="Cuenca"><img src="../images/cuenca.png" class="imares"  alt="res1" ></a>
+										<a href="../pages/restaurante.php" title="Guayaquil"><img src="../images/guayaquil.png" class="imares"  alt="res1" ></a>
 												
 										
 									</div>
