@@ -31,7 +31,7 @@
 		              </div>
 			         
 			          <div class="centrar"> <br>
-			           <input type="submit" value="Aceptar"> 
+			           <input type="submit" value="Aceptar" class="button1"> 
 		            </div>
 		            </div>
 		          </form>

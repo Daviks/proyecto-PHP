@@ -7,11 +7,6 @@
 			<div class="main zerogrid">
 			
 			<?php include '../plantillasphp/headerRCC.php' ; ?>
-
-				<h2 id="titulopag"> Registrar </h2> 
-				
-				
-	
 				
 <!-- / header -->
 <!-- content -->
@@ -43,32 +38,32 @@
 										<input type="text" name="usuario"  class="input" required>								
 									</div>                                    <br>
 									<div class="wrapper">
-										<span>Contrase&ntilde;a:</span>
+										<span>Contraseña:</span>
 										<input type="password" name="contrasena" class="input" required>								
 									</div><br>
 									<div class="wrapper">
-										<span>Repetir contrase&ntilde;a:</span>
+										<span>Repetir Contraseña:</span>
 										<input type="password" name="repetircontraseña" class="input" required>								
 									</div>
                                                                        <br>
                                                                        									<div class="wrapper">
-										<span>Numero Tarjeta:</span>
+										<span>Número Tarjeta:</span>
 										<input type="text" name="numtarjeta" class="input" required>								
 									</div>
                                     <br>
 									<div class="wrapper">
-										<span>DirecciÃ³n:</span>
+										<span>Dirección:</span>
 										<input type="text" name="direccion" class="input" required>								
 									</div>
                                     <br>											                                     <div class="wrapper">
-										<span>TelÃ©fono:</span>
+										<span>Teléfono:</span>
 										<input type="text" name="telefono" class="input" required>								
 									</div>
                                      <br>
                                     
 									<div class="centrar">
                                     <br>
-									<input type="submit" value="Registrar"> 		
+									<input type="submit" value="Registrar" class="button1"> 		
 									</div>
 								</div>
 							</form>

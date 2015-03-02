@@ -32,22 +32,21 @@
                                     
 									<div class="wrapper">
 										<span>Dirección:</span>
-										<input type="text" class="input" >								
+										<input type="text" class="input" required>								
 									</div>
                                                                         <br>
 									<div class="wrapper">
 										<span>Referencia:</span>
-										<input type="text" class="input" >								
+										<input type="text" class="input" required>								
 									</div>                                    <br>											                                     <div class="wrapper">
 										<span>Teléfono:</span>
-										<input type="text" class="input" >								
+										<input type="text" class="input" required>								
 									</div>
                                      
                                     
 									<div class="centrar">
                                     <br>
-									<a href="#" class="button1" onClick="document.getElementById('ContactForm').submit()">Registrar</a>
-									<a href="#" class="button1" onClick="document.getElementById('ContactForm').reset()">Cancelar</a>		
+									<input type="submit" value="Registrar" class="button1"> 		
 									</div>
 								</div>
 							</form>

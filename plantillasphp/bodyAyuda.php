@@ -30,7 +30,7 @@
 										<textarea name="textarea" cols="1" rows="1" required></textarea>								
 									</div>
 								<div class="centrar">
-								<input type="submit" value="Enviar"> 
+								<input type="submit" value="Enviar" class="button1"> 
 									</div>
 								</div>
 							</form>

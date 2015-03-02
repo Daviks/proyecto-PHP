@@ -16,38 +16,36 @@
 				<div class="wrap">
 					<div class="box">
 						<div>
-							<h2 class="letter_spacing">Registrar nuevo restaurante</h2>
+							<h2 class="letter_spacing">Registrar Nuevo Restaurante</h2>
                             <br>
 							<form id="ContactForm">
 								<div>
 									<div class="wrapper">
-										<span>Razón social:</span>
-										<input type="text" class="input" >
+										<span>Razón Social:</span>
+										<input type="text" class="input" required>
 									</div>
                                     <br>
 									<div class="wrapper">
 										<span>RUC:</span>
-										<input type="text" class="input" >								
+										<input type="number" class="input" required>								
 									</div>                                    <br>
 									<div class="wrapper">
 										<span>Contraseña:</span>
-										<input type="text" class="input" >								
+										<input type="password" class="input" required>								
 									</div>
                                                                        <br>
 									<div class="wrapper">
 										<span>Dirección:</span>
-										<input type="text" class="input" >								
+										<input type="text" class="input" required>								
 									</div>
                                     <br>											                                     <div class="wrapper">
 										<span>Teléfono:</span>
-										<input type="text" class="input" >								
+										<input type="number" class="input" >								
 									</div>
                                      <br>
                                     
-									<div class="centrar">
-                                    <br>
-									<a href="#" class="button1" onClick="document.getElementById('ContactForm').submit()">Registrar</a>
-									<a href="#" class="button1" onClick="document.getElementById('ContactForm').reset()">Cancelar</a>		
+									<div class="centrar">		
+									<input type="submit" value="Registrar" class="button1" > 
 									</div>
 								</div>
 							</form>

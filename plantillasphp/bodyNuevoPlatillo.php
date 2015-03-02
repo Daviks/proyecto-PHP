@@ -16,33 +16,32 @@
 				<div class="wrap">
 					<div class="box">
 						<div>
-							<h2 class="letter_spacing">Ingresar nuevo plato</h2>
+							<h2 class="letter_spacing">Ingresar Nuevo Plato</h2>
                             <br>
 							<form id="ContactForm">
 								<div>
 									<div class="wrapper">
-										<span>Nombre del platillo:</span>
-										<input type="text" class="input" >
+										<span>Nombre del Plato:</span>
+										<input type="text" class="input" required>
 									</div>
                                     <br>
 									<div class="wrapper">
 										<span>Precio:</span>
-										<input type="text" class="input" >								
+										<input type="number" class="input" required>								
 									</div>
                                     <br>
 									<div class="wrapper">
 										<span>Descripción:</span>
-										<input type="text" class="input" >								
+										<input type="text" class="input" required>								
 									</div>
                                     <br>											                                     <div class="wrapper">
-										<input name='uploadedfile' type='file'>
+										<input name='uploadedfile' type='file'required>
 									</div>
                                      <br>
                                     
 									<div class="centrar">
                                     <br>
-									<a href="#" class="button1" onClick="document.getElementById('ContactForm').submit()">Registrar</a>
-									<a href="#" class="button1" onClick="document.getElementById('ContactForm').reset()">Cancelar</a>		
+									<input type="submit" value="Registrar" class="button1"> 	
 									</div>
 								</div>
 							</form>
