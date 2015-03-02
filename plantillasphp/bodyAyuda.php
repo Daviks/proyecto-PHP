@@ -15,7 +15,7 @@
 					<div class="box">
 						<div>
 							<h2 class="letter_spacing">Contactenos</h2>
-							<form id="ContactForm">
+							<form id="frmingresar" method="post" >
 								<div>
 									<div class="wrapper">
 										<span>Nombre:</span>
@@ -23,7 +23,7 @@
 									</div>
 									<div class="wrapper">
 										<span>Email:</span>
-										<input type="text" class="input" >								
+										<input type="email" class="input" >								
 									</div>
 									<div class="textarea_box">
 										<span>Mensaje:</span>
