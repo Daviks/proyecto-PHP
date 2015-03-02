@@ -23,7 +23,6 @@ $PlatoCollectorObj = new PlatoCollector();
 			<div class="main zerogrid">
 <!-- header -->
 				<?php include '../plantillasphp/headerRCC.php' ; ?>
-<<<<<<< HEAD
 				<h2 id="titulopag"> 
 				<?php 
 				echo $titcat;
@@ -31,9 +30,6 @@ $PlatoCollectorObj = new PlatoCollector();
 				</h2>  
 				
 				<input  href="#" class="button1" id="seccionbuscar" type="submit" value="Buscar"><br><br> <input  id="seccionbuscar" type="search" name="buscar"><br>
-=======
-				<h2 id="titulopag"> Comida </h2><form method="post" name="buscar">  <input  href="#" class="button1" id="seccionbuscar" type="submit" value="Buscar"><br><br> <input  id="seccionbuscar" type="search" name="buscar"></form><br>
->>>>>>> origin/master
 				
 				<div id="contenido">
 				

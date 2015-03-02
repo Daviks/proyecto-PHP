@@ -36,7 +36,7 @@
                                                                         <br>
 									<div class="wrapper">
 										<span>Email:</span>
-                                                                                <input type="email" name="email" class="input" >								
+                                                                                <input type="text" name="email" class="input" >								
 									</div>                                    <br>
 									<div class="wrapper">
 										<span>Usuario:</span>
@@ -44,16 +44,16 @@
 									</div>                                    <br>
 									<div class="wrapper">
 										<span>Contrase&ntilde;a:</span>
-										<input type="password" name="contrasena" class="input" >								
+										<input type="text" name="contrasena" class="input" >								
 									</div><br>
 									<div class="wrapper">
 										<span>Repetir contrase&ntilde;a:</span>
-										<input type="password" name="repetircontraseña" class="input" >								
+										<input type="text" name="repetircontraseña" class="input" >								
 									</div>
                                                                        <br>
                                                                        									<div class="wrapper">
 										<span>Numero Tarjeta:</span>
-										<input type="number" max="20" name="numtarjeta" class="input" >								
+										<input type="text" name="numtarjeta" class="input" >								
 									</div>
                                     <br>
 									<div class="wrapper">
@@ -62,7 +62,7 @@
 									</div>
                                     <br>											                                     <div class="wrapper">
 										<span>TelÃ©fono:</span>
-										<input type="number" max="10" name="telefono" class="input" >								
+										<input type="text" name="telefono" class="input" >								
 									</div>
                                      <br>
                                     

@@ -18,29 +18,29 @@
 						<div>
 							<h2 class="letter_spacing">Registrar nuevo restaurante</h2>
                             <br>
-							<form id="ContactForm" name="NuevaMarca" method="post">
+							<form id="ContactForm">
 								<div>
 									<div class="wrapper">
 										<span>Razón social:</span>
-										<input name="razon" type="text" class="input" >
+										<input type="text" class="input" >
 									</div>
                                     <br>
 									<div class="wrapper">
 										<span>RUC:</span>
-										<input name="ruc" type="number" max="15" class="input" >								
+										<input type="text" class="input" >								
 									</div>                                    <br>
 									<div class="wrapper">
 										<span>Contraseña:</span>
-										<input name="contraseña" type="password" class="input" >								
+										<input type="text" class="input" >								
 									</div>
                                                                        <br>
 									<div class="wrapper">
 										<span>Dirección:</span>
-										<input name="direccion" type="text" class="input" >								
+										<input type="text" class="input" >								
 									</div>
                                     <br>											                                     <div class="wrapper">
 										<span>Teléfono:</span>
-										<input name="telefono" type="number" max="10" class="input" >								
+										<input type="text" class="input" >								
 									</div>
                                      <br>
                                     

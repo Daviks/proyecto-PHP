@@ -18,21 +18,18 @@
 			    <div>
 			      <h2 class="letter_spacing">Ingresar</h2>
 			      <br>
-			      <form id="ContactForm" name="Ingresar" method="post">
+			      <form id="ContactForm">
 			        <div>
 			          <div class="wrapper"> <span>Usuario:</span>
-			            <input name="usuario" type="text" class="input" required>
-		             
+			            <input type="text" class="input" >
 		              </div>
 			          <br>
-			         
 			          <div class="wrapper"> <span>Contrase&ntilde;a:</span>
-			            <input name="contraseña" type="password" class="input" required>
+			            <input type="text" class="input" >
 		              </div>
-			         
 			          <div class="centrar"> <br>
-			           <input type="submit" value="Aceptar"> 
-		            </div>
+			            <a href="#" class="button1" onClick="document.getElementById('ContactForm').submit()">Aceptar</a>
+				    <a href="../index.php" class="button1" onClick="document.getElementById('ContactForm').reset()">Cancelar</a> </div>
 		            </div>
 		          </form>
 		        </div>

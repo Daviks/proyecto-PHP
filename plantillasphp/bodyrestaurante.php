@@ -32,7 +32,7 @@ $PlatoCollectorObj = new PlatoCollector();
 				<?php 
 				echo $id;
 				?>  
-				</h2> <form method="post"> <input  href="#" class="button1" id="seccionbuscar" type="submit" value="Buscar"><br><br> <input  id="seccionbuscar" type="search" name="buscar"> </form><br>
+				</h2> <input  href="#" class="button1" id="seccionbuscar" type="submit" value="Buscar"><br><br> <input  id="seccionbuscar" type="search" name="buscar"><br>
 				
 				<div id="contenido">
 				
