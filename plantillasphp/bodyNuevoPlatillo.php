@@ -18,21 +18,21 @@
 						<div>
 							<h2 class="letter_spacing">Ingresar nuevo plato</h2>
                             <br>
-							<form id="ContactForm">
+							<form id="IngresarPlatillo" method="post">
 								<div>
 									<div class="wrapper">
 										<span>Nombre del platillo:</span>
-										<input type="text" class="input" >
+										<input name="nombreplato" type="text" class="input" >
 									</div>
                                     <br>
 									<div class="wrapper">
 										<span>Precio:</span>
-										<input type="text" class="input" >								
+										<input name="precio" type="number" class="input" >								
 									</div>
                                     <br>
 									<div class="wrapper">
 										<span>Descripción:</span>
-										<input type="text" class="input" >								
+										<input name="descripcion" type="text" class="input" >								
 									</div>
                                     <br>											                                     <div class="wrapper">
 										<input name='uploadedfile' type='file'>

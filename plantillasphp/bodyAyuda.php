@@ -19,23 +19,27 @@
 								<div>
 									<div class="wrapper">
 										<span>Nombre:</span>
-										<input type="text" class="input" >
+										<input type="text" id="nombre" class="input" >
 									</div>
 									<div class="wrapper">
 										<span>Email:</span>
-										<input type="text" class="input" >								
+										<input type="text" id ="email" class="input" >								
 									</div>
 									<div class="textarea_box">
 										<span>Mensaje:</span>
-										<textarea name="textarea" cols="1" rows="1"></textarea>								
+										<textarea name="mensaje" id ="mensaje" cols="1" rows="1"></textarea>								
 									</div>
 								<div class="centrar">
-									<a href="#" class="button1" onClick="document.getElementById('ContactForm').submit()">Enviar</a>
-									<a href="../index.php" class="button1" onClick="document.getElementById('ContactForm').reset()">Cancelar</a>		
+									<a href="../mvc/mail.php" class="button1" onClick="document.getElementById('ContactForm').submit()">Enviar</a>
+									<a href="#" class="button1" onClick="document.getElementById('ContactForm').reset()">Cancelar</a>		
+									
 									</div>
+									
 								</div>
 							</form>
 						</div>
+								<?php
+include_once('../mvc/crud/presentarAyuda.php'); ?>
 					</div>
 				</div>
 			</article>
