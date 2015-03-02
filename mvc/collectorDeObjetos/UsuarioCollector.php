@@ -1,6 +1,6 @@
 <?php
-	include_one('Usuario.php');
-	include_one('Collector.php');
+	include_once('Usuario.php');
+	include_once('Collector.php');
 
   class UsuarioCollector extends Collector{
       
