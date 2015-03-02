@@ -24,7 +24,7 @@ else
 				<?php 
 				echo $id
 				?>  
-				</h2> <input  href="#" class="button1" id="seccionbuscar" type="submit" value="Buscar"><br><br> <input  id="seccionbuscar" type="search" name="buscar"><br>
+				</h2> <form method="post"> <input  href="#" class="button1" id="seccionbuscar" type="submit" value="Buscar"><br><br> <input  id="seccionbuscar" type="search" name="buscar"> </form><br>
 				
 				<div id="contenido">
 				

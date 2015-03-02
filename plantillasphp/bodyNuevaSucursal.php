@@ -18,7 +18,7 @@
 						<div>
 							<h2 class="letter_spacing">Ingresar nueva sucursal</h2>
                             <br>
-							<form id="ContactForm">
+							<form id="ContactForm" name="Ingresarsucursal" method="post">
 								<div>
 									<div class="wrapper">
 										<span>Ciudad:</span>
@@ -32,15 +32,15 @@
                                     
 									<div class="wrapper">
 										<span>Dirección:</span>
-										<input type="text" class="input" >								
+										<input name="direccionsucursal" type="text" class="input" >								
 									</div>
                                                                         <br>
 									<div class="wrapper">
 										<span>Referencia:</span>
-										<input type="text" class="input" >								
+										<input name="referenciasucursal" type="text" class="input" >								
 									</div>                                    <br>											                                     <div class="wrapper">
 										<span>Teléfono:</span>
-										<input type="text" class="input" >								
+										<input name="telefonosucursal" type="number" max="10" class="input" >								
 									</div>
                                      
                                     
