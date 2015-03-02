@@ -67,7 +67,7 @@
 									</div>
                                                                         <?php
                                                                         include_once ('../mvc/collectorDeObjetos/ClienteCollector.php');
-                                                                        include_once ('../mvc/collectorDeObjetos/UsuarioCollector.php');
+                                                                       // include_once ('../mvc/collectorDeObjetos/UsuarioCollector.php');
                                                                         $nombre=$_POST["nombre"];
                                                                         $apellido=$_POST["apellido"];
                                                                         $email=$_POST["email"];
@@ -78,12 +78,12 @@
                                                                         $telefono=$_POST["telefono"];
                                                                         
                                                                         $clientecol= new ClienteCollector();
-                                                                        $Usuario = new UsuarioCollector();
+                                                                        //$Usuario = new UsuarioCollector();
                                                                         $tipo=1;
                                                                         $clientecol->createCliente($nombre,$apellido,$email,$numtarjeta,$tipo);
-                                                                        $clientecol->showClienteNombre($nombre);
-                                                                        $id=$clientecol->getID_Cliente();
-                                                                        $Usuario->createUsuario($usuario,$contrasena,$id);
+                                                                        //$clientecol->showClienteNombre($nombre);
+                                                                       // $id=$clientecol->getID_Cliente();
+                                                                        //$Usuario->createUsuario($usuario,$contrasena,$id);
                                                                         ?>
 								</div>
 							</form>
