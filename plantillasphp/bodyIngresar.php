@@ -19,17 +19,20 @@
 			      <h2 class="letter_spacing">Ingresar</h2>
 			      <br>
 			      <form id="ContactForm">
-			        <div>
+			       <div>
 			          <div class="wrapper"> <span>Usuario:</span>
-			            <input type="text" class="input" >
+			            <input name="usuario" type="text" class="input" required>
+		             
 		              </div>
 			          <br>
+			         
 			          <div class="wrapper"> <span>Contrase&ntilde;a:</span>
-			            <input type="text" class="input" >
+			            <input name="contraseña" type="password" class="input" required>
 		              </div>
+			         
 			          <div class="centrar"> <br>
-			            <a href="#" class="button1" onClick="document.getElementById('ContactForm').submit()">Aceptar</a>
-				    <a href="../index.php" class="button1" onClick="document.getElementById('ContactForm').reset()">Cancelar</a> </div>
+			           <input type="submit" value="Aceptar"> 
+		            </div>
 		            </div>
 		          </form>
 		        </div>
