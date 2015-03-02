@@ -5,7 +5,7 @@
 			<div class="main zerogrid">
 <!-- header -->
 				<?php include '../plantillasphp/headerRCC.php' ; ?>
-				<h2 id="titulopag"> Comida </h2>  <input  href="#" class="button1" id="seccionbuscar" type="submit" value="Buscar"><br><br> <input  id="seccionbuscar" type="search" name="buscar"><br>
+				<h2 id="titulopag"> Comida </h2><form method="post" name="buscar">  <input  href="#" class="button1" id="seccionbuscar" type="submit" value="Buscar"><br><br> <input  id="seccionbuscar" type="search" name="buscar"></form><br>
 				
 				<div id="contenido">
 				

@@ -19,15 +19,15 @@
 								<div>
 									<div class="wrapper">
 										<span>Nombre:</span>
-										<input type="text" class="input" >
+										<input name="nombre" type="text" class="input" >
 									</div>
 									<div class="wrapper">
 										<span>Email:</span>
-										<input type="email" class="input" >								
+										<input name="email" type="email" class="input" >								
 									</div>
 									<div class="textarea_box">
 										<span>Mensaje:</span>
-										<textarea name="textarea" cols="1" rows="1"></textarea>								
+										<textarea  name="textarea" cols="1" rows="1"></textarea>								
 									</div>
 								<div class="centrar">
 									<a href="#" class="button1" onClick="document.getElementById('ContactForm').submit()">Enviar</a>
