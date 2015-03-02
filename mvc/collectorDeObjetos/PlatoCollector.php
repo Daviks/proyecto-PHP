@@ -1,7 +1,7 @@
 <?php
 
-include_once('../objetos/Plato.php');
-include_once('../baseDeDatos/Collector.php');
+include_once('Plato.php');
+include_once('Collector.php');
 
 class PlatoCollector extends Collector
 {
@@ -21,23 +21,36 @@ class PlatoCollector extends Collector
 
   function readPlatos() {
    
-    $rows = self::$db->getRows("SELECT * FROM Plato ");        
+    $rows = self::$db->getRows("SELECT * FROM plato ");        
     $arrayPlato= array();        
    
     foreach ($rows as $c){
-      $aux = new Plato($c{'id'},$c{'Nombre'},$c{'Precio'},$c{'Descripcion'},$c{'imagen'},$c{'Categoria'});
+      $aux = new Plato($c{'Id'},$c{'Nombre'},$c{'Precio'},$c{'Descripcion'},$c{'imagen'},$c{'Categoria_Id'});
       array_push($arrayPlato, $aux);
     }
     return $arrayPlato;        
   }
   
   function updatePlato($id,$nombre) {    
-    $insertrow = self::$db->updateRow("UPDATE Plato SET Plato.nombre = ?  WHERE Plato.id = ? ", array( "{$nombre}",$id));
+    $insertrow = self::$db->updateRow("UPDATE plato SET plato.nombre = ?  WHERE plato.Id = ? ", array( "{$nombre}",$id));
   }  
 
   function deletePlato($id) {    
-    $deleterow = self::$db->deleteRow("DELETE FROM Plato WHERE id= ?", array("{$id}"));
-  }  
+    $deleterow = self::$db->deleteRow("DELETE FROM plato WHERE Id= ?", array("{$id}"));
+  }
+
+	function leerPlatoPorCategoriaId($idcat) {
+   
+    $rows = self::$db->getRows("SELECT * FROM plato WHERE plato.Categoria_Id = ?", array($idcat));
+    $arrayPlato= array();        
+   
+    foreach ($rows as $c){
+      $aux = new Plato($c{'Id'},$c{'Nombre'},$c{'Precio'},$c{'Descripcion'},$c{'imagen'},$c{'Categoria_Id'});
+      array_push($arrayPlato, $aux);
+    }
+    return $arrayPlato;        
+  }
+  
 }
 ?>
 

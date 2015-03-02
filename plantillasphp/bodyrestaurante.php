@@ -10,6 +10,14 @@ else
 	$id = "Restaurantes";
 }
 
+
+include_once('../mvc/collectorDeObjetos/CategoriaCollector.php');
+include_once('../mvc/collectorDeObjetos/PlatoCollector.php');
+$CategoriaCollectorObj = new CategoriaCollector();
+$PlatoCollectorObj = new PlatoCollector();
+?>
+<?php
+
 ?>
 <body id="page1">
 <div class="body6">
@@ -22,7 +30,7 @@ else
 				
 				<h2 id="titulopag"> 
 				<?php 
-				echo $id
+				echo $id;
 				?>  
 				</h2> <input  href="#" class="button1" id="seccionbuscar" type="submit" value="Buscar"><br><br> <input  id="seccionbuscar" type="search" name="buscar"><br>
 				
@@ -30,21 +38,43 @@ else
 				
 									<div id="banner_left">
 										<ul id="menu_categorias">
+										<li id="cate">Categor&iacuteas</li>
+										<!--codigo php para obtener las categorias-->
+										
+										<?php
+											foreach ($CategoriaCollectorObj->readCategorias() as $objetoaux){
+											  
+											  $nombre = $objetoaux->getNombre();
+												$idcat = $objetoaux->getIdCategoria();
+											  echo "<a href='comida.php?titulocategorias=$nombre&idcategoria=$idcat'><li>$nombre</li></a>";
+											  
+											  //echo $idcat;
+											  
+											  //echo "<td>".$objetoaux->getNombre()."</td>";
+											  //echo "<a href='formularioUsuarioEditar.php?id=".$objetoaux->getIdUsuario()."'>editar</a>";
+											  //echo "<td><a href='eliminar.php?id=".$objetoaux->getIdUsuario()."'>eliminar</a></td>"; 
+											  //echo "<td><a href='pages/restaurante.php?titulo=".$objetoaux->getNombre()."'>Nueva con titulo</a></td>"; 
+											  //echo "</tr>"; 
+											}
+											?>
+										<!--
 											<li id="cate">Categor&iacuteas</li>
 											<li>Caf&eacute</li>
 											<li>Pizza</li>
 											<li>Mariscos</li>
 											<li>Carnes</li>
-											
+											-->
 										</ul>
 
 									</div>
 									
 									<div id="banner_right">
+									
+									
 										<img src="../images/Tomate.png" class="imares"  alt="res1">
 										<img src="../images/mcdonalds.png" class="imares"  alt="res1" >
 										<img src="../images/Menestras_Del_Negro_Logo.jpg" class="imares"  alt="res1" >
-												
+										
 										
 									</div>
 								  <br/> 
