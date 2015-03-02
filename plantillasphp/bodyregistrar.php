@@ -26,50 +26,49 @@
 								<div>
 									<div class="wrapper">
 										<span>Nombre:</span>
-                                                                                <input type="text" name="nombre" class="input" >
+                                         <input type="text" name="nombre" class="input" required>
 									</div>
                                     <br>
 									<div class="wrapper">
 										<span>Apellidos:</span>
-                                                                                <input type="text" name="apellido" class="input" >								
+                                        <input type="text" name="apellido" class="input" required>								
 									</div>
                                                                         <br>
 									<div class="wrapper">
 										<span>Email:</span>
-                                                                                <input type="text" name="email" class="input" >								
+                                         <input type="email" name="email" class="input" required>								
 									</div>                                    <br>
 									<div class="wrapper">
 										<span>Usuario:</span>
-										<input type="text" name="usuario"  class="input" >								
+										<input type="text" name="usuario"  class="input" required>								
 									</div>                                    <br>
 									<div class="wrapper">
 										<span>Contrase&ntilde;a:</span>
-										<input type="text" name="contrasena" class="input" >								
+										<input type="password" name="contrasena" class="input" required>								
 									</div><br>
 									<div class="wrapper">
 										<span>Repetir contrase&ntilde;a:</span>
-										<input type="text" name="repetircontraseña" class="input" >								
+										<input type="password" name="repetircontraseña" class="input" required>								
 									</div>
                                                                        <br>
                                                                        									<div class="wrapper">
 										<span>Numero Tarjeta:</span>
-										<input type="text" name="numtarjeta" class="input" >								
+										<input type="text" name="numtarjeta" class="input" required>								
 									</div>
                                     <br>
 									<div class="wrapper">
 										<span>DirecciÃ³n:</span>
-										<input type="text" name="direccion" class="input" >								
+										<input type="text" name="direccion" class="input" required>								
 									</div>
                                     <br>											                                     <div class="wrapper">
 										<span>TelÃ©fono:</span>
-										<input type="text" name="telefono" class="input" >								
+										<input type="text" name="telefono" class="input" required>								
 									</div>
                                      <br>
                                     
 									<div class="centrar">
                                     <br>
-									<a href="#" class="button1" onClick="document.getElementById('ContactForm').submit()">Registrar</a>
-									<a href="../index.php" class="button1" onClick="document.getElementById('ContactForm').reset()">Cancelar</a>		
+									<input type="submit" value="Registrar"> 		
 									</div>
 								</div>
 							</form>

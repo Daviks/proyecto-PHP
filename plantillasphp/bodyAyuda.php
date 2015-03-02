@@ -19,19 +19,18 @@
 								<div>
 									<div class="wrapper">
 										<span>Nombre:</span>
-										<input type="text" class="input" >
+										<input type="text" class="input" required>
 									</div>
 									<div class="wrapper">
 										<span>Email:</span>
-										<input type="text" class="input" >								
+										<input type="email" class="input" required>								
 									</div>
 									<div class="textarea_box">
 										<span>Mensaje:</span>
-										<textarea name="textarea" cols="1" rows="1"></textarea>								
+										<textarea name="textarea" cols="1" rows="1" required></textarea>								
 									</div>
 								<div class="centrar">
-									<a href="#" class="button1" onClick="document.getElementById('ContactForm').submit()">Enviar</a>
-									<a href="../index.php" class="button1" onClick="document.getElementById('ContactForm').reset()">Cancelar</a>		
+								<input type="submit" value="Enviar"> 
 									</div>
 								</div>
 							</form>
