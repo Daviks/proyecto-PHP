@@ -31,11 +31,11 @@
       } 
       
        function deleteTipo_Cliente($id) {    
-       $deleterow = self::$db->deleteRow("DELETE FROM Tipo_Usuario WHERE Id= ?", array("{$id}"));
+       $deleterow = self::$db->deleteRow("DELETE FROM Tipo_Cliente WHERE Id= ?", array("{$id}"));
       }  
 
         function createTipo_Usuario($id,$descripcion) {    
-        $insertrow = self::$db->insertRow("INSERT INTO Tipo_Usuario (Id,Descripcion) VALUES (?,?)", array(null,"{$descripcion}"));
+        $insertrow = self::$db->insertRow("INSERT INTO Tipo_Cliente (Id,Descripcion) VALUES (?,?)", array(null,"{$descripcion}"));
        }
   }
       ?>

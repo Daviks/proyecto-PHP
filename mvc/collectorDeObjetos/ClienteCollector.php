@@ -6,7 +6,7 @@
       
       function ShowCliente($id){
           
-          $row=self::$db->getRows("Select * From CrazzyFood.Cliente where Id= ?",array("{$id}"));
+          $row=self::$db->getRows("Select * From Cliente where Id= ?",array("{$id}"));
           
           $Cliente=new Cliente($row[0]{'Id'});
           
@@ -14,7 +14,7 @@
       }
       function ShowClienteNombre($nombre){
           
-          $row=self::$db->getRows("Select * From CrazzyFood.Cliente where Nombre= ?",array("{$nombre}"));
+          $row=self::$db->getRows("Select * From Cliente where Nombre= ?",array("{$nombre}"));
           
           $Cliente=new Cliente($row[0]{'Id'});
           
@@ -23,7 +23,7 @@
       
       
       function ReadCliente(){
-          $rows=self::$db->getRows("Select * From CrazzyFood.Cliente");
+          $rows=self::$db->getRows("Select * From Cliente");
           
           $arrayCliente= array();
           
@@ -35,15 +35,15 @@
       }
       
        function updateCliente($id,$nombre,$apellido,$email,$numero_tarjeta,$tipo_cliente) {    
-       $insertrow = self::$db->updateRow("UPDATE CrazzyFood.Cliente SET Nombre=?, Apellido= ?,Email= ?,Numero_tarjeta= ?,Tipo_Cliente_Id= ? WHERE Id = ? ", array( "{$nombre}","{$apellido}","{$email}","{$numero_tarjeta}","{$tipo_cliente}",$id));
+       $insertrow = self::$db->updateRow("UPDATE Cliente SET Nombre=?, Apellido= ?,Email= ?,Numero_tarjeta= ?,Tipo_Cliente_Id= ? WHERE Id = ? ", array( "{$nombre}","{$apellido}","{$email}","{$numero_tarjeta}","{$tipo_cliente}",$id));
       } 
       
        function deleteCliente($id) {    
-       $deleterow = self::$db->deleteRow("DELETE FROM CrazzyFood.Cliente WHERE Id= ?", array("{$id}"));
+       $deleterow = self::$db->deleteRow("DELETE FROM Cliente WHERE Id= ?", array("{$id}"));
       }  
 
         function createCliente($nombre,$apellido,$email,$numero_tarjeta,$tipo_cliente) {    
-        $insertrow = self::$db->insertRow("INSERT INTO CrazzyFood.Cliente(Id,Nombre,Apellido,Email,Numero_Tarjeta,Tipo_Cliente_Id) VALUES (?,?,?,?,?,?)", array(null,"{$nombre}","{$apellido}","{$email}","{$numero_tarjeta}","{$tipo_cliente}"));
+        $insertrow = self::$db->insertRow("INSERT INTO Cliente(Id,Nombre,Apellido,Email,Numero_Tarjeta,Tipo_Cliente_Id) VALUES (?,?,?,?,?,?)", array(null,"{$nombre}","{$apellido}","{$email}","{$numero_tarjeta}","{$tipo_cliente}"));
        }  
       
   }
