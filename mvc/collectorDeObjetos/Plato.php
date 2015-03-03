@@ -15,7 +15,7 @@ class Plato
        	$this->nombre = $nombre;
        	$this->precio = $precio;
        	$this->descripcion = $descripcion;
-		$this->imagen = $imagen;
+		    $this->imagen = $imagen;
         $this->categoria = $categoria;
  
 	}

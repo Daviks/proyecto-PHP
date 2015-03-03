@@ -18,26 +18,30 @@
 						<div>
 							<h2 class="letter_spacing">Ingresar Nuevo Plato</h2>
                             <br>
-							<form id="ContactForm">
+							<form id="ContactForm" action="../mvc/collectorDeObjetos/insertarPlato.php" method="post">
 								<div>
 									<div class="wrapper">
 										<span>Nombre del Plato:</span>
-										<input type="text" class="input" required>
+										<input type="text" class="input" name="nombre" required>
 									</div>
                                     <br>
 									<div class="wrapper">
 										<span>Precio:</span>
-										<input type="number" class="input" required>								
+										<input type="decimal" class="input" name="precio"required>								
 									</div>
                                     <br>
 									<div class="wrapper">
 										<span>Descripción:</span>
-										<input type="text" class="input" required>								
+										<input type="text" class="input" name="descripcion" required>								
 									</div>
+
                                     <br>											                                     <div class="wrapper">
-										<input name='uploadedfile' type='file'required>
+									<div class="wrapper">
+										<span>Imagen:</span>
+										<input type="text" class="input" name="imagen" required>								
 									</div>
                                      <br>
+                                     
                                     
 									<div class="centrar">
                                     <br>
@@ -45,6 +49,7 @@
 									</div>
 								</div>
 							</form>
+
 						</div>
 					</div>
 				</div>

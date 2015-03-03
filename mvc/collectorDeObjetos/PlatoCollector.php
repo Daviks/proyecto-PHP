@@ -6,22 +6,25 @@ include_once('Collector.php');
 class PlatoCollector extends Collector
 {
   
+  function createPlato($nombre,$precio,$descripcion,$imagen,$categoria) { 
+
+    $insertrow = self::$db->insertRow("INSERT INTO Plato (Id, Nombre, Precio, Descripcion, imagen, Categoria_Id) VALUES (?, ?, ?, ?, ?, ?)", array(null, "{$nombre}", "{$precio}", "{$descripcion}", "{$imagen}", "{$categoria}"));
+  }  
+
+
   function showPlato($id) {
     
-    $row = self::$db->getRows("SELECT * FROM Plato where id= ? ", array("{$id}")); 
+    $row = self::$db->getRows("SELECT * FROM Plato where Id= ? ", array("{$Id}")); 
     
     $ObjPlato = new Plato($row[0]{'id'},$row[0]{'Nombre'},$row[0]{'Precio'},$row[0]{'Descripcion'},$row[0]{'imagen'},$row[0]{'Categoria'});
     return $ObjPlato;
   }
 
-  function createPlato($nombre) { 
-
-    $insertrow = self::$db->insertRow("INSERT INTO Plato (id, Nombre, Precio, Descripcion, imagen, Categoria) VALUES (?, ?)", array(null, "{$nombre}"));
-  }  
+  
 
   function readPlatos() {
    
-    $rows = self::$db->getRows("SELECT * FROM plato ");        
+    $rows = self::$db->getRows("SELECT * FROM Plato ");        
     $arrayPlato= array();        
    
     foreach ($rows as $c){
