@@ -67,21 +67,37 @@ $PedidoCollectorObj = new PedidoCollector();
 									<div id="banner_right">
 										
 									<?php
+									
+												echo "
+												<div class='platophp'>
+												CANTIDAD  &nbsp;&nbsp;&nbsp;PRODUCTO <br><br>
+												</div>";
 												foreach ($PedidoCollectorObj->readPedidos() as $objetoauxpedido){
-												$idpedido = $objetoauxpedido->getIdPedido();
-												$lineapedido = $objetoauxpedido->getTotal();
+												
+												$cantidadpedido = $objetoauxpedido->getCantidad();
+												$idplato = $objetoauxpedido->getPedido_Id();
+												$nombreplato = $PlatoCollectorObj->showPlato($idplato)->getNombre();
+													
 												
 												
-												echo "<a href='#'><li>$idpedido</li></a>";
+												echo "<div class='platophp'>
 												
-												echo "<a href='#'><li>$lineapedido</li></a>";
+												$cantidadpedido	&nbsp;&nbsp;&nbsp;
+																&nbsp;&nbsp;&nbsp;
+																&nbsp;&nbsp;&nbsp;
+																&nbsp;&nbsp;&nbsp;
+																&nbsp;&nbsp;&nbsp;
+																&nbsp;&nbsp;&nbsp;
+												$nombreplato 
+												
+												</div>";
 											
 											}
 											
 											
 											?>
 											
-											
+											<br><br>
 											
 												<?php
 													
