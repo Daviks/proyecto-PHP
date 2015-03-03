@@ -1,4 +1,23 @@
+<?php
 
+if(isset($_GET["titulocategorias"])==true){
+	$titcat = $_GET["titulocategorias"]; 
+}
+else
+{
+	$titcat = "Platos";
+}
+
+
+include_once('../mvc/collectorDeObjetos/CategoriaCollector.php');
+include_once('../mvc/collectorDeObjetos/PlatoCollector.php');
+include_once('../mvc/collectorDeObjetos/PedidoCollector.php');
+
+$CategoriaCollectorObj = new CategoriaCollector();
+$PlatoCollectorObj = new PlatoCollector();
+$PedidoCollectorObj = new PedidoCollector();
+
+?>
 
 <body id="page1">
 <div class="body6">
@@ -14,12 +33,17 @@
 				
 									<div id="banner_left">
 										<ul id="menu_categorias">
-											<li id="cate">Categor&iacuteas</li>
-											<li>Caf&eacute</li>
-											<li>Pizza</li>
-											<li>Mariscos</li>
-											<li>Carnes</li>
+											<li id="cate">Categorias</li>
 											
+											<?php
+											foreach ($CategoriaCollectorObj->readCategorias() as $objetoaux){
+											  
+											  $nombre = $objetoaux->getNombre();
+												$idcat = $objetoaux->getIdCategoria();
+											  echo "<a href='comida.php?titulocategorias=$nombre&idcategoria=$idcat'><li>$nombre</li></a>";
+											  
+											}
+											?>
 										</ul>
 
 									</div>
