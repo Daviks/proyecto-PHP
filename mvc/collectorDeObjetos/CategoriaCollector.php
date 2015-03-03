@@ -7,14 +7,14 @@ class CategoriaCollector extends Collector
 {
   function showCategoria($id) {
 
-    $row = self::$db->getRows("SELECT * FROM Categoria where Id= ? ", array("{$id}")); 
+    $row = self::$db->getRows("SELECT * FROM categoria where Id= ? ", array("{$id}")); 
     $ObjCategoria = new Categoria($row[0]{'id'},$row[0]{'Nombre'});
     return $ObjCategoria;
   }
 
   function readCategorias() {
    
-    $rows = self::$db->getRows("SELECT * FROM Categoria ");        
+    $rows = self::$db->getRows("SELECT * FROM categoria ");        
     $arrayCategoria= array();        
    
     foreach ($rows as $c){
