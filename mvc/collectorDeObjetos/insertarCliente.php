@@ -19,10 +19,26 @@
 	$tipocliente=1;
 	$clientecollectorobj->createCliente($nombre,$apellido,$email,$numetarjeta,$tipocliente);
 	
-	$clienteobj=$clientecollectorobj->ShowClienteNombre($nombre);
+	$clienteobj= new Cliente();
+	//$clienteobj=$clientecollectorobj->ShowClienteNombre($nombre);
 	
-	$usuarioobj->createUsuario($usuario,$contrasena,$clienteobj->getID_Cliente());
+	
+	//$id=$clienteobj->getID_Cliente();
+
+	//$array=$clientecollectorobj->ReadCliente();
+	
+	//foreach($array as $clienteobj){
+	//	if($clienteobj->getNombre()== $nombre){
+	//		if($clienteobj->getEmail()==$email){
+	//	    $id_Cliente=$clienteobj;
+			
+	//		}
+	//	}
+	//}
+	//$id=$clientecollectorobj->ultimoid();
+	$id;
+	$usuarioobj->createUsuario($usuario,$contrasena,$id);
 	
 
- echo "<meta http-equiv='Refresh' content='1;../../ingresar.php'>";
+     echo "<meta http-equiv='Refresh' content='1;../../pages/ingresar.php'>";
 ?>

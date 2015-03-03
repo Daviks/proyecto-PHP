@@ -10,9 +10,11 @@
 	$usuarioobj= new usuario();
     $usuarioobj=$UsuarioCollectorobj->ShowUsuarioNombre($usuario);
 	
-	if($usuarioobj->getUsuario()=$usuario){
-		echo "<meta http-equiv='Refresh' content='1;../../index.php'>";
+	if($usuarioobj->getUsuario()==$usuario){
+		echo "<meta http-equiv='Refresh' content='1;../index.php'>";
+		
 		}else{
-			echo "<meta http-equiv='Refresh' content='1;../../ingresar.php'>";
+			echo $usuarioobjobj;
+			 echo "<meta http-equiv='Refresh' content='1;../../pages/ingresar.php'>";
 			}
 ?>

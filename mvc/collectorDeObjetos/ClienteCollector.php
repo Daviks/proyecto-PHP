@@ -23,13 +23,13 @@
       
       
       function ReadCliente(){
-          $rows=self::$db->getRows("Select * From Cliente");
+          $rows=self::$db->getRows("SELECT * FROM cliente");
           
           $arrayCliente= array();
           
           foreach($rows as $c){
-              $aux=new Cliente($c{'Id'});
-              array_push($arrayCliente,$aux);
+              $aux=new Cliente($c{'Id'},$c{'Nombre'},$c{'Apellido'},$c{'Email'},$c{'Numero_Tarjeta'},$c{'Tipo_Cliente_Id'});
+              array_push($arrayCliente, $aux);
           }
           return $arrayCliente;
       }
@@ -45,7 +45,17 @@
         function createCliente($nombre,$apellido,$email,$numero_tarjeta,$tipo_cliente) {    
         $insertrow = self::$db->insertRow("INSERT INTO Cliente(Id,Nombre,Apellido,Email,Numero_Tarjeta,Tipo_Cliente_Id) VALUES (?,?,?,?,?,?)", array(null,"{$nombre}","{$apellido}","{$email}","{$numero_tarjeta}","{$tipo_cliente}"));
        }  
-      
+	   
+        function ultimoid(){
+			$query= mysql_query("SELECT MAX(Id) AS id FROM cliente");
+			 if ($row = mysql_fetch_row($query)) 
+			 {
+			   $id = trim($row[0]);
+			 }
+		return $id;
+	  }
   }
+  
+
 
 ?>
