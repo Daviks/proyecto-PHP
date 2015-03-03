@@ -27,7 +27,7 @@
                                     <br>
 									<div class="wrapper">
 										<span>Precio:</span>
-										<input type="decimal" class="input" name="precio"required>								
+										<input type="number" class="input" name="precio"required>								
 									</div>
                                     <br>
 									<div class="wrapper">
