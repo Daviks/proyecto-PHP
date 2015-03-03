@@ -18,8 +18,8 @@ foreach ($PlatoCollectorObj->readPlatos() as $objetoaux){
   echo "<td>".$objetoaux->getDescripcion()."</td>";
   echo "<td>".$objetoaux->getImagen()."</td>";
   echo "<td>".$objetoaux->getCategoria()."</td>";
- echo "<td><a href='formularioUsuarioEditar.php?id=".$objetoaux->getIdPlato()."'>editar</a></td>";
-  echo "<td><a href='eliminar.php?id=".$objetoaux->getIdPlato()."'>eliminar</a></td>"; 
+ echo "<td><a href='formulariosEditarPlato.php?id=".$objetoaux->getIdPlato()."'>editar</a></td>";
+  echo "<td><a href='eliminarPlato.php?id=".$objetoaux->getIdPlato()."'>eliminar</a></td>"; 
   echo "</tr>"; 
 }
 ?>
