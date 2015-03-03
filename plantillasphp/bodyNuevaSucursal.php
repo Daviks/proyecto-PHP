@@ -59,7 +59,7 @@
 										<input type="text" class="input" name="cierre" required>								
 									</div>                                    <br>											                                     <div class="wrapper">
 										<span>Nombre de La Marca:</span>
-										<input type="text" class="input" required>								
+										<input type="text" class="input" required name="marca">								
 									</div>
                                      
                                     

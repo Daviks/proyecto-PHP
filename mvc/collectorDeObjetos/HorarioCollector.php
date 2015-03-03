@@ -1,11 +1,17 @@
 <?php
- include_once('../mvc/objetos/Horario.php');
- include_once('../mvc/baseDeDatos/Collector.php');
+ include_once('Horario.php');
+ include_once('Collector.php');
  
  class HorarioCollector extends Collector
  {
 	function showHorario($id){
     	$row = self::$db->getRows("SELECT * FROM Horario where ID= ? ", array("{$id}")); 
+    	$ObjHorario = new Horario($row[0]{'ID'},$row[0]{'Hora_Entrada'},$row[0]{'Hora_Cierre'});
+    	return $ObjHorario;
+	}
+	
+		function showHorarioHora($horaentrada ,$horacierre){
+    	$row = self::$db->getRows("SELECT * FROM Horario where Hora_Entrada= ? ,hora_Cierre=? ", array("{$horaentrada}","{$horacierre}")); 
     	$ObjHorario = new Horario($row[0]{'ID'},$row[0]{'Hora_Entrada'},$row[0]{'Hora_Cierre'});
     	return $ObjHorario;
 	}

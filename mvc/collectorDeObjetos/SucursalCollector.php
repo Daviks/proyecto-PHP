@@ -1,6 +1,6 @@
 <?php
- include_once('../mvc/objetos/Sucursal.php');
- include_once('../mvc/baseDeDatos/Collector.php');
+ include_once('Sucursal.php');
+ include_once('Collector.php');
  
  class SucursalCollector extends Collector
  {
@@ -25,7 +25,7 @@
   	}*/
   
   	function updateSucursal($idSucursal,$Ruc,$Nombre,$Horario_ID,$Marca_Id) {    
-    	$insertrow = self::$db->updateRow("UPDATE Sucursal SET Sucursal.Ruc = ?  WHERE Sucursal.Nombre = ?  WHERE Sucursal.Horario_ID = ?  WHERE Sucursal.Marca_Id = ?  , array( "{$Ruc}", "{$Nombre}", "{$Horario_ID}", "{$Marca_Id}" ,$id));
+    	$insertrow = self::$db->updateRow("UPDATE Sucursal SET Sucursal.Ruc = ?  WHERE Sucursal.Nombre = ?  WHERE Sucursal.Horario_ID = ?  WHERE Sucursal.Marca_Id = ?"  , array( "{$Ruc}", "{$Nombre}", "{$Horario_ID}", "{$Marca_Id}" ,$id));
   	}  
 
   	function deleteSucursal($id) {    

@@ -1,11 +1,17 @@
 <?php
- include_once('../mvc/objetos/Marca.php');
- include_once('../mvc/baseDeDatos/Collector.php');
+ include_once('Marca.php');
+ include_once('Collector.php');
  
- class HorarioCollector extends Collector
+ class MArcaCollector extends Collector
  {
 	function showMarca($id){
     	$row = self::$db->getRows("SELECT * FROM Marca where Id= ? ", array("{$id}")); 
+    	$ObjMarca = new Marca($row[0]{'id'},$row[0]{'Nombre'});
+    	return $ObjMarca;
+	}
+	
+		function showMarcaNombre($id){
+    	$row = self::$db->getRows("SELECT * FROM Marca where marca.Nombre= ? ", array("{$id}")); 
     	$ObjMarca = new Marca($row[0]{'id'},$row[0]{'Nombre'});
     	return $ObjMarca;
 	}
