@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 03-03-2015 a las 06:48:16
+-- Tiempo de generación: 03-03-2015 a las 07:12:12
 -- Versión del servidor: 5.0.51b-community-nt-log
 -- Versión de PHP: 5.5.12
 
@@ -35,8 +35,7 @@ CREATE TABLE IF NOT EXISTS `ayuda` (
   `Email` varchar(100) NOT NULL,
   `Mensaje` varchar(500) NOT NULL,
   PRIMARY KEY  (`Id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
-
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=8 ;
 
 --
 -- Volcado de datos para la tabla `ayuda`
@@ -47,8 +46,6 @@ INSERT INTO `ayuda` (`Id`, `Nombre`, `Email`, `Mensaje`) VALUES
 (5, 'wqewqe', 'wqeqw@hotmail.com', 'asdsadsadsadsadasdwseqwewesdsadasd'),
 (6, 'wqewqe', 'wqeqw@hotmail.com', 'asdsadsadsadsadasdwseqwewesdsadasd'),
 (7, 'wqewqe', 'wqeqw@hotmail.com', 'xzcsadsadsad');
-
--- --------------------------------------------------------
 
 -- --------------------------------------------------------
 
@@ -65,7 +62,7 @@ CREATE TABLE IF NOT EXISTS `cabecera_orden` (
   `Usuario_Id` int(11) NOT NULL,
   PRIMARY KEY  (`Id`),
   KEY `fk_Cabecera_Orden_Usuario1_idx` (`Usuario_Id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=0 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
 
 --
 -- Volcado de datos para la tabla `cabecera_orden`
@@ -143,6 +140,7 @@ CREATE TABLE IF NOT EXISTS `cliente` (
 INSERT INTO `cliente` (`Id`, `Nombre`, `Apellido`, `Email`, `Numero_tarjeta`, `Tipo_Cliente_Id`) VALUES
 (1, 'Carlos', 'Leon', 'ac@gmail.com', '22233344', 1),
 (2, 'andres', 'moreira', 'mor@hotmail.com', '1236745', 1);
+
 -- --------------------------------------------------------
 
 --
@@ -289,8 +287,8 @@ CREATE TABLE IF NOT EXISTS `plato` (
 
 INSERT INTO `plato` (`Id`, `Nombre`, `Precio`, `Descripcion`, `imagen`, `Categoria_Id`) VALUES
 (2, 'Mocachino', 1.52, 'Cafe con chocolate', 'mocachino.jpg', 1),
-(3, 'Americana', 12.52, 'Queso y Jamon', NULL, 2),
-(4, 'Vegetariana', 15.22, 'Sin carne, saludable', NULL, 2),
+(3, 'Americana', 12.52, 'Queso y Jamon', 'peperoni.jpg', 2),
+(4, 'Vegetariana', 15.22, 'Sin carne, saludable', 'jamon.png', 2),
 (5, 'Capuchino', 1.25, 'Cafe con leche', 'capuchino.jpg', 1);
 
 -- --------------------------------------------------------
@@ -374,6 +372,7 @@ CREATE TABLE IF NOT EXISTS `usuario` (
 INSERT INTO `usuario` (`Id`, `Usuario`, `Contraseña`, `Cliente_Id`) VALUES
 (1, 'carlos', 'leon', 1),
 (2, 'qqwewqe', 'wqeqwew', 2);
+
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
