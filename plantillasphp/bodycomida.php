@@ -74,10 +74,12 @@ $PedidoCollectorObj = new PedidoCollector();
 												$nombreplato = $objetoauxplato->getNombre();
 												$nombreimagen = $objetoauxplato->getImagen();
 												$precioplato = $objetoauxplato->getPrecio();
-												echo "<img src='../images/$nombreimagen' class='imares'  alt='res'>
-												<a class='platophp' href='#'><li>$nombreplato</li></a>
-												<a 'platophp' href='#'><li>$precioplato</li></a>
-												<a href='#' class='button1' >+</a>";
+												echo "<div class='platophp'>
+														<img src='../images/$nombreimagen' class='imares'  alt='res'>
+														&nbsp;&nbsp;&nbsp;$nombreplato
+														&nbsp;&nbsp;&nbsp;$precioplato &nbsp;&nbsp;
+														<a href='#' class='button1' >+</a>
+														<br></div>";
 												
 												
 												}
