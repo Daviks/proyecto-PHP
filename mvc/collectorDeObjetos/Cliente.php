@@ -57,4 +57,5 @@ class Cliente{
     Function getTipo_Cliente(){
         return $this->Tipo_Cliente;
     }
-}?>
+}
+?>
