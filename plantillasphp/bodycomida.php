@@ -46,7 +46,7 @@ $PedidoCollectorObj = new PedidoCollector();
 											  
 											  $nombre = $objetoaux->getNombre();
 												$idcat = $objetoaux->getIdCategoria();
-											  echo "<a href='comida.php?titulocategorias=$nombre&idcategoria=$idcat'><li>$nombre</li></a>";
+											  echo "<a id='menu_categorias' href='comida.php?titulocategorias=$nombre&idcategoria=$idcat'><li>$nombre</li></a>";
 											  
 											}
 											?>
@@ -63,29 +63,21 @@ $PedidoCollectorObj = new PedidoCollector();
 									<div id="banner_right">
 										
 									<?php
-													function agregarAPedido(){
-													$PedidoCollectorObj->createPedido($numLinea, $cantidad, $precioplato, $cabecera, $idplato);
-													}
-													function sumar(){
-													$numLinea = $numLinea +1;
-													alert('Pedido realizado!');
-													echo "AAAAABBBBBBBBBCCCCCCCCCCCCCC";
-													}
-										$numLinea=1;
+													
 												
 											if(isset($_GET["idcategoria"])==true){
 											
-												$cantidad = 1;
-												$cabecera =1;
+												
 												$idcat = $_GET["idcategoria"]; 
 												foreach ($PlatoCollectorObj->leerPlatoPorCategoriaId($idcat) as $objetoauxplato){
 												$idplato = $objetoauxplato->getIdPlato();
 												$nombreplato = $objetoauxplato->getNombre();
 												$nombreimagen = $objetoauxplato->getImagen();
 												$precioplato = $objetoauxplato->getPrecio();
-												echo "<a href='#'><li>$nombreplato</li></a>";
-												echo "<img src='../images/$nombreimagen' class='imares'  alt='res'>";
-												echo "<a href='#'><li>$precioplato</li></a>";
+												echo "<img src='../images/$nombreimagen' class='imares'  alt='res'>
+												<a class='platophp' href='#'><li>$nombreplato</li></a>
+												<a 'platophp' href='#'><li>$precioplato</li></a>
+												<a href='#' class='button1' >+</a>";
 												
 												
 												}
@@ -97,10 +89,12 @@ $PedidoCollectorObj = new PedidoCollector();
 												$nombreplato = $objetoauxplato->getNombre();
 												$nombreimagen = $objetoauxplato->getImagen();
 												$precioplato = $objetoauxplato->getPrecio();
-												echo "<img src='../images/$nombreimagen' class='imares'  alt='res'>";
-												echo "&nbsp;&nbsp;&nbsp;$nombreplato";
-												echo "&nbsp;&nbsp;&nbsp;$precioplato &nbsp;&nbsp;";
-												echo "<a href='#' class='button1' >+</a>";
+												echo "<div class='platophp'>
+														<img src='../images/$nombreimagen' class='imares'  alt='res'>
+														&nbsp;&nbsp;&nbsp;$nombreplato
+														&nbsp;&nbsp;&nbsp;$precioplato &nbsp;&nbsp;
+														<a href='#' class='button1' >+</a>
+														<br></div>";
 											}
 											}
 											
@@ -111,8 +105,9 @@ $PedidoCollectorObj = new PedidoCollector();
 										<img src="../images/Chicken.png" class="imares"  alt="res1">
 										<img src="../images/Churrasco.png" class="imares"  alt="res1">
 -->
-										<a class="button1" href="pedido.php" >Realizar Pedido</a>
+										
 									</div>
+									<a class="button1" id="btnpedido" href="pedido.php" >Realizar Pedido</a>
 									<div>
 									
 									

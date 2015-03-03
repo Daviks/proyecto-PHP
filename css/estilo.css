@@ -521,6 +521,8 @@ background-color:#350001;
 }
 
 #banner_right{
+overflow-y: auto;
+overflow-x: hidden;
 position:absolute;
 left:25%;
 margin-top: 3%;
@@ -553,3 +555,19 @@ height:50%;
 margin-left:5%;
 }
 
+.platophp{
+
+margin-left:3%;
+color:white;
+list-style-type: none;
+
+
+}
+
+#btnpedido{
+z-index:5;
+position:absolute;
+margin-left:70%;
+margin-top:35%;
+
+}
