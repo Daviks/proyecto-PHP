@@ -12,5 +12,6 @@ include_once("PlatoCollector.php");
 $PlatoCollectorObj = new PlatoCollector();
 $PlatoCollectorObj->updatePlato($idplato,$valor1,$valor2,$valor3,$valor4,$valor5);
 
+echo "<meta http-equiv='Refresh' content='1;readPlatos.php'>";
 
 ?>

@@ -45,7 +45,7 @@ $ObjPlato = $PlatooCollectorObj->showPlato($id);
                                     
 									<div class="centrar">
                                    <input type="submit" value="Guardar" class="button1">
-									<a href="index.php">Cancelar</a>	
+									<a href="readPlatos.php">Cancelar</a>	
 									</div>
 								
 							</form>
