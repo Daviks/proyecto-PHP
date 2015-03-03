@@ -18,7 +18,7 @@
 			    <div>
 			      <h2 class="letter_spacing">Ingresar</h2>
 			      <br>
-			      <form id="ContactForm" action="../mvc/collectorDeObjetos/insertarUsuario.php" method="post">
+			      <form id="ContactForm" action="../mvc/collectorDeObjetos/ingresarUsuario.php" method="post">
 			       <div>
 			          <div class="wrapper"> <span>Usuario:</span>
 			            <input name="usuario" type="text" class="input" required>

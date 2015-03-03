@@ -18,7 +18,7 @@
 						<div>
 							<h2 class="letter_spacing">Ingresar nueva sucursal</h2>
                             <br>
-							<form id="ContactForm">
+							<form id="ContactForm" method="post">
 								<div>
 									<div class="wrapper">
 										<span>Ciudad:</span>
@@ -29,17 +29,36 @@
                                         <option value="4">Cuenca</option>
                                       </select>
                                     </div><br>
+                                    <div class="wrapper">
+										<span>Ruc:</span>
+										<input type="text" class="input" name="ruc" required>								
+									</div>
+                                                                        <br>
+                                    <div class="wrapper">
+										<span>Nombre:</span>
+										<input type="text" class="input" name="nombre" required>								
+									</div>
+                                                                        <br>
                                     
 									<div class="wrapper">
 										<span>Dirección:</span>
-										<input type="text" class="input" required>								
+										<input type="text" class="input" name="direccion" required>								
 									</div>
                                                                         <br>
 									<div class="wrapper">
 										<span>Referencia:</span>
-										<input type="text" class="input" required>								
+										<input type="text" class="input" name="referencia" required>								
 									</div>                                    <br>											                                     <div class="wrapper">
 										<span>Teléfono:</span>
+										<input type="text" class="input" name="telefono" required>								
+									</div>                                    <br>											                                     <div class="wrapper">
+										<span>Hora de Apertura:</span>
+										<input type="text" class="input" name="apertura" required>								
+									</div>                                    <br>											                                     <div class="wrapper">
+										<span>Hora de Cierre:</span>
+										<input type="text" class="input" name="cierre" required>								
+									</div>                                    <br>											                                     <div class="wrapper">
+										<span>Nombre de La Marca:</span>
 										<input type="text" class="input" required>								
 									</div>
                                      
