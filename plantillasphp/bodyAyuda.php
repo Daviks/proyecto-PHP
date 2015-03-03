@@ -15,19 +15,19 @@
 					<div class="box">
 						<div>
 							<h2 class="letter_spacing">Contactenos</h2>
-							<form id="ContactForm">
+							<form id="ContactForm" action="../mvc/collectorDeObjetos/insertarAyuda.php" method="post">
 								<div>
 									<div class="wrapper">
 										<span>Nombre:</span>
-										<input type="text" class="input" required>
+										<input type="text" name:"nombre" class="input" required>
 									</div>
 									<div class="wrapper">
 										<span>Email:</span>
-										<input type="email" class="input" required>								
+										<input type="email" name:"email" class="input" required>								
 									</div>
 									<div class="textarea_box">
 										<span>Mensaje:</span>
-										<textarea name="textarea" cols="1" rows="1" required></textarea>								
+										<textarea name="mensaje" cols="1" rows="1" required></textarea>								
 									</div>
 								<div class="centrar">
 								<input type="submit" value="Enviar" class="button1"> 
