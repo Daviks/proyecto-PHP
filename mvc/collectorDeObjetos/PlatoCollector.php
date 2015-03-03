@@ -6,22 +6,14 @@ include_once('Collector.php');
 class PlatoCollector extends Collector
 {
   
-  function showPlato($id) {
-    
-    $row = self::$db->getRows("SELECT * FROM Plato where id= ? ", array("{$id}")); 
-    
-    $ObjPlato = new Plato($row[0]{'id'},$row[0]{'Nombre'},$row[0]{'Precio'},$row[0]{'Descripcion'},$row[0]{'imagen'},$row[0]{'Categoria'});
-    return $ObjPlato;
-  }
+  function createPlato($nombre,$precio,$descripcion,$imagen,$categoria) { 
 
-  function createPlato($nombre) { 
-
-    $insertrow = self::$db->insertRow("INSERT INTO Plato (id, Nombre, Precio, Descripcion, imagen, Categoria) VALUES (?, ?)", array(null, "{$nombre}"));
+    $insertrow = self::$db->insertRow("INSERT INTO Plato (Id, Nombre, Precio, Descripcion, imagen, Categoria_Id) VALUES (?, ?, ?, ?, ?, ?)", array(null, "{$nombre}", "{$precio}", "{$descripcion}", "{$imagen}", "{$categoria}"));
   }  
 
   function readPlatos() {
    
-    $rows = self::$db->getRows("SELECT * FROM plato ");        
+    $rows = self::$db->getRows("SELECT * FROM Plato ");        
     $arrayPlato= array();        
    
     foreach ($rows as $c){
@@ -30,7 +22,16 @@ class PlatoCollector extends Collector
     }
     return $arrayPlato;        
   }
-  
+
+    function showPlato($id) {
+    
+    $row = self::$db->getRows("SELECT * FROM Plato where Id= ? ", array("{$Id}")); 
+    
+    $ObjPlato = new Plato($row[0]{'id'},$row[0]{'Nombre'},$row[0]{'Precio'},$row[0]{'Descripcion'},$row[0]{'imagen'},$row[0]{'Categoria'});
+    return $ObjPlato;
+  }
+
+
   function updatePlato($id,$nombre) {    
     $insertrow = self::$db->updateRow("UPDATE plato SET plato.nombre = ?  WHERE plato.Id = ? ", array( "{$nombre}",$id));
   }  

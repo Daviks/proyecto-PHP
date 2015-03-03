@@ -27,7 +27,7 @@
                                     <br>
 									<div class="wrapper">
 										<span>Precio:</span>
-										<input type="number" class="input" name="precio"required>								
+										<input type="decimal" class="input" name="precio"required>								
 									</div>
                                     <br>
 									<div class="wrapper">
@@ -45,7 +45,7 @@
                                     
 									<div class="centrar">
                                     <br>
-									<input type="submit" value="Registrar" class="button1"> 	
+									<input type="submit" value="Registrar" class="button1"> <a href="../mvc/collectorDeObjetos/readPlatos.php">Consultar Platos</a>	
 									</div>
 								</div>
 							</form>
