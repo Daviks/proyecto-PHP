@@ -5,19 +5,19 @@
  class HorarioCollector extends Collector
  {
 	function showHorario($id){
-    	$row = self::$db->getRows("SELECT * FROM Horario where ID= ? ", array("{$id}")); 
+    	$row = self::$db->getRows("SELECT * FROM horario where ID= ? ", array("{$id}")); 
     	$ObjHorario = new Horario($row[0]{'ID'},$row[0]{'Hora_Entrada'},$row[0]{'Hora_Cierre'});
     	return $ObjHorario;
 	}
 	
 		function showHorarioHora($horaentrada ,$horacierre){
-    	$row = self::$db->getRows("SELECT * FROM Horario where Hora_Entrada= ? ,hora_Cierre=? ", array("{$horaentrada}","{$horacierre}")); 
+    	$row = self::$db->getRows("SELECT * FROM horario where Hora_Entrada= ? ,hora_Cierre=? ", array("{$horaentrada}","{$horacierre}")); 
     	$ObjHorario = new Horario($row[0]{'ID'},$row[0]{'Hora_Entrada'},$row[0]{'Hora_Cierre'});
     	return $ObjHorario;
 	}
 	
 	function createHorario($Hora_Entrada,$Hora_Cierre) {    
-    	$insertrow = self::$db->insertRow("INSERT INTO Horario (ID, Hora_Entrada, Hora_Cierre) VALUES (?, ?, ?)", array(null, "{$Hora_Entrada}", "{$Hora_Cierre}"));
+    	$insertrow = self::$db->insertRow("INSERT INTO horario (ID, Hora_Entrada, Hora_Cierre) VALUES (?, ?, ?)", array(null, "{$Hora_Entrada}", "{$Hora_Cierre}"));
 	}  
 
   	/*function readHorario($idHorario) {
@@ -31,11 +31,11 @@
   	}*/
   
   	function updateHorario($idHorario,$Hora_Entrada,$Hora_Cierre) {    
-    	$insertrow = self::$db->updateRow("UPDATE Horario SET Horario.Hora_Entrada = ?  WHERE Horario.Hora_Cierre = ?  WHERE Horario.ID = ?", array( "{$Hora_Entrada}", "{$Hora_Cierre}",$id));
+    	$insertrow = self::$db->updateRow("UPDATE horario SET horario.Hora_Entrada = ?  WHERE horario.Hora_Cierre = ?  WHERE horario.ID = ?", array( "{$Hora_Entrada}", "{$Hora_Cierre}",$id));
   	}  
 
   	function deleteHorario($id) {    
-    	$deleterow = self::$db->deleteRow("DELETE FROM Horario WHERE ID= ?", array("{$id}"));
+    	$deleterow = self::$db->deleteRow("DELETE FROM horario WHERE ID= ?", array("{$id}"));
   	}
  }
 ?>

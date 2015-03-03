@@ -24,7 +24,7 @@ class PedidoCollector extends Collector
   }  
   function readPedidos() {
    
-    $rows = self::$db->getRows("SELECT * FROM Pedido ");        
+    $rows = self::$db->getRows("SELECT * FROM pedido ");        
     $arrayPedido= array();        
    
     foreach ($rows as $c){
