@@ -8,14 +8,14 @@ class Plato
 	private $precio;
 	private $descripcion;
 	private $imagen;
-  private $categoria;
+    private $categoria;
 
 	function __construct($idPlato, $nombre, $precio, $descripcion, $imagen, $categoria){
 		$this->idPlato = $idPlato;
        	$this->nombre = $nombre;
        	$this->precio = $precio;
        	$this->descripcion = $descripcion;
-		    $this->imagen = $imagen;
+		$this->imagen = $imagen;
         $this->categoria = $categoria;
  
 	}
