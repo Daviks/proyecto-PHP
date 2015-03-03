@@ -1,44 +1,44 @@
 <?php
   class usuario{
       
-      private $Id_Usuario;
-      private $Usuario;
-      private $Contrasena;
-      private $Cliente;
+      private $idUsuario;
+      private $usuario;
+      private $contrasena;
+      private $cliente;
       
-      function construc($id_usuario,$usuario,$contrasena,$cliente){
-          $this->Id_Usuario=$id_usuario;
-          $this->Usuario=$usuario;
+      function construc($idUsuario,$usuario,$contrasena,$cliente){
+          $this->idUsuario=$idUsuario;
+          $this->usuario=$usuario;
           $this->Contraseña=$contrasena;
           $this->Cliente=$cliente;
       }
       
-      function setId_Usuario($id_usuario){
-          $this->Id_Usuario=$id_usuario;
+      function setId_Usuario($idUsuario){
+          $this->idUsuario=$idUsuario;
       }
       function getId_Usuario(){
-          $this->Id_Usuario;
+          $this->idUsuario;
       }
       
       function setUsuario($usuario){
-          $this->Usuario=$usuario;
+          $this->usuario=$usuario;
       }
       function getUsuario(){
-         return $this->Usuario;
+         return $this->usuario;
       }
       
-      function setContraseña($contrasena){
-          $this->Contraseña=$contrasena;
+      function setContrasena($contrasena){
+          $this->contrasena=$contrasena;
       }
-      function getContraseña(){
-          return $this->Contrasena;
+      function getContrasena(){
+          return $this->contrasena;
       }
       
       function setCliente($cliente){
-          $this->CLiente=$cliente;
+          $this->cliente=$cliente;
       }
       function getCliente(){
-          return $this->Cliente;
+          return $this->cliente;
       }
       
   }?>
