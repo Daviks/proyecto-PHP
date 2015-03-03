@@ -5,13 +5,13 @@
  class SucursalCollector extends Collector
  {
 	function showSucursal($id){
-    	$row = self::$db->getRows("SELECT * FROM sucursal where id= ? ", array("{$id}")); 
+    	$row = self::$db->getRows("SELECT * FROM Sucursal where id= ? ", array("{$id}")); 
     	$ObjSucursal = new Sucursal($row[0]{'id'},$row[0]{'Ruc'},$row[0]{'Nombre'},$row[0]{'Horario_ID'},$row[0]{'Marca_Id'});
     	return $ObjSucursal;
 	}
 	
 	function createSucursal($Ruc,$Nombre,$Horario_ID,$Marca_Id) {    
-    	$insertrow = self::$db->insertRow("INSERT INTO sucursal (Id, Ruc, Nombre, Horario_ID, Marca_Id) VALUES (?, ?, ?, ?, ?)", array(null, "{$Ruc}", "{$Nombre}", "{$Horario_ID}", "{$Marca_Id}"));
+    	$insertrow = self::$db->insertRow("INSERT INTO Sucursal (Id, Ruc, Nombre, Horario_ID, Marca_Id) VALUES (?, ?, ?, ?, ?)", array(null, "{$Ruc}", "{$Nombre}", "{$Horario_ID}", "{$Marca_Id}"));
 	}  
 
   	/*function readHorario($Horario_ID) {
@@ -25,11 +25,11 @@
   	}*/
   
   	function updateSucursal($idSucursal,$Ruc,$Nombre,$Horario_ID,$Marca_Id) {    
-    	$insertrow = self::$db->updateRow("UPDATE sucursal SET Sucursal.Ruc = ?  WHERE Sucursal.Nombre = ?  WHERE Sucursal.Horario_ID = ?  WHERE Sucursal.Marca_Id = ?"  , array( "{$Ruc}", "{$Nombre}", "{$Horario_ID}", "{$Marca_Id}" ,$id));
+    	$insertrow = self::$db->updateRow("UPDATE Sucursal SET Sucursal.Ruc = ?  WHERE Sucursal.Nombre = ?  WHERE Sucursal.Horario_ID = ?  WHERE Sucursal.Marca_Id = ?"  , array( "{$Ruc}", "{$Nombre}", "{$Horario_ID}", "{$Marca_Id}" ,$id));
   	}  
 
   	function deleteSucursal($id) {    
-    	$deleterow = self::$db->deleteRow("DELETE FROM sucursal WHERE idSucursal= ?", array("{$id}"));
+    	$deleterow = self::$db->deleteRow("DELETE FROM Sucursal WHERE idSucursal= ?", array("{$id}"));
   	}
  }
 ?>

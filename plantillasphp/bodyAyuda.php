@@ -19,11 +19,11 @@
 								<div>
 									<div class="wrapper">
 										<span>Nombre:</span>
-										<input type="text" name="nombre" class="input" required>
+										<input type="text" name:"nombre" class="input" required>
 									</div>
 									<div class="wrapper">
 										<span>Email:</span>
-										<input type="email" name="email" class="input" required>								
+										<input type="email" name:"email" class="input" required>								
 									</div>
 									<div class="textarea_box">
 										<span>Mensaje:</span>

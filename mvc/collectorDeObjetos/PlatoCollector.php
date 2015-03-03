@@ -8,12 +8,12 @@ class PlatoCollector extends Collector
   
   function createPlato($nombre,$precio,$descripcion,$imagen,$categoria) { 
 
-    $insertrow = self::$db->insertRow("INSERT INTO plato (Id, Nombre, Precio, Descripcion, imagen, Categoria_Id) VALUES (?, ?, ?, ?, ?, ?)", array(null, "{$nombre}", "{$precio}", "{$descripcion}", "{$imagen}", "{$categoria}"));
+    $insertrow = self::$db->insertRow("INSERT INTO Plato (Id, Nombre, Precio, Descripcion, imagen, Categoria_Id) VALUES (?, ?, ?, ?, ?, ?)", array(null, "{$nombre}", "{$precio}", "{$descripcion}", "{$imagen}", "{$categoria}"));
   }  
 
   function readPlatos() {
    
-    $rows = self::$db->getRows("SELECT * FROM plato ");        
+    $rows = self::$db->getRows("SELECT * FROM Plato ");        
     $arrayPlato= array();        
    
     foreach ($rows as $c){

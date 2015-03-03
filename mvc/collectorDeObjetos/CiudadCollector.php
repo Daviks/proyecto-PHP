@@ -5,13 +5,13 @@
  class CiudadCollector extends Collector
  {
 	function showCiudad($id){
-    	$row = self::$db->getRows("SELECT * FROM ciudad where id= ? ", array("{$id}")); 
+    	$row = self::$db->getRows("SELECT * FROM Ciudad where id= ? ", array("{$id}")); 
     	$ObjCiudad = new Ciudad($row[0]{'id'},$row[0]{'Nombre'});
     	return $ObjCiudad;
 	}
 	
 	function createCiudad($Nombre) {    
-    	$insertrow = self::$db->insertRow("INSERT INTO ciudad (id, Nombre) VALUES (?, ?)", array(null, "{$Nombre}"));
+    	$insertrow = self::$db->insertRow("INSERT INTO Ciudad (id, Nombre) VALUES (?, ?)", array(null, "{$Nombre}"));
 	}  
 
   	/*function readHorario($idHorario) {
@@ -25,11 +25,11 @@
   	}*/
   
   	function updateCiudad($idCiudad,$Nombre) {    
-    	$insertrow = self::$db->updateRow("UPDATE ciudad SET Ciudad.Nombre = ?", array( "{$Nombre}",$id));
+    	$insertrow = self::$db->updateRow("UPDATE Ciudad SET Ciudad.Nombre = ?", array( "{$Nombre}",$id));
   	}  
 
   	function deleteCiudad($id) {    
-    	$deleterow = self::$db->deleteRow("DELETE FROM ciudad WHERE id= ?", array("{$id}"));
+    	$deleterow = self::$db->deleteRow("DELETE FROM Ciudad WHERE idCiudad= ?", array("{$id}"));
   	}
  }
 ?>
