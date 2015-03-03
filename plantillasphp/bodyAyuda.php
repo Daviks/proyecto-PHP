@@ -35,8 +35,7 @@
 								</div>
 							</form>
 						</div>
-											<?php
-include_once('../mvc/crud/presentarAyuda.php'); ?>
+				
 					</div>
 				</div>
 			</article>
