@@ -11,7 +11,7 @@
 	}
 	
 	function createSucursal($Ruc,$Nombre,$Horario_ID,$Marca_Id) {    
-    	$insertrow = self::$db->insertRow("INSERT INTO Sucursal (idSucursal, Ruc, Nombre, Horario_ID, Marca_Id) VALUES (?, ?, ?, ?, ?)", array(null, "{$Ruc}", "{$Nombre}", "{$Horario_ID}", "{$Marca_Id}"));
+    	$insertrow = self::$db->insertRow("INSERT INTO Sucursal (Id, Ruc, Nombre, Horario_ID, Marca_Id) VALUES (?, ?, ?, ?, ?)", array(null, "{$Ruc}", "{$Nombre}", "{$Horario_ID}", "{$Marca_Id}"));
 	}  
 
   	/*function readHorario($Horario_ID) {
